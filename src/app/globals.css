@@ -15,9 +15,20 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-center bg-cover;
+  background-image:url('./img/bg.jpg');
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+/* 在小屏幕设备上调整背景图样式 */
+@media (max-width: 768px) {
+  body {
+    background-size: 200%; /* 使图片稍微缩小以显示更多的中心部分 */
+    background-position: center center; /* 保持中心对齐 */
+    background-attachment:fixed;
+  }
 }
 
 @layer utilities {
