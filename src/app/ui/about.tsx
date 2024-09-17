@@ -26,7 +26,7 @@ export const AboutMe = () => {
         <div className=" md:basis-1/2 bg-black  text-white p-10 max-w-md justify-self-cente">
             <div className="mb-4">
                 <h2 className="text-xl mb-2 text-red-500 md:text-2xl font-bold">ABOUT ME</h2>
-                <h1 className="text-4xl font-bold mb-4 md:text-5xl">Who I am?</h1>
+                <h1 className="text-4xl font-bold mb-4 md:text-5xl">Who am I ?</h1>
                 <p className="text-lg mb-4 text-red-500">Outstanding learning ability and full of potential</p>
                 <p className="text-sm mb-4 md:text-lg">Blending a Bachelor&apos;s in Landscape Architecture with a Master&apos;s in Computing, 
                     I am an imaginative programmer ready to bring your vision to life. 

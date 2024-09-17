@@ -16,7 +16,7 @@ export default function Home() {
       <MyEducationSection/>
       <MyCareer/>
       <Designer/>
-      {/*<MyHobbyPage/>*/}
+      <MyHobbyPage/>
       <ContactInfo/>
       <Footer/>
     </div>
