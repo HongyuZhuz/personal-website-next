@@ -3,7 +3,7 @@
 export const AboutMe = () => {
     return (
       <section className="about-me-section w-full bg-black" id="about-me">
-        <div className="flex md:flex-row flex-col justify-center ">
+        <div className="flex md:flex-row flex-col justify-center content-center">
             <ProfilePic />
             <WhoIAm /> 
         </div>
@@ -14,8 +14,8 @@ export const AboutMe = () => {
   const ProfilePic = () =>{
     return(
         <>
-        <div className="justify-self-center md:justify-self-end">
-            <img src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" alt="Profile" className=" border-2 border-red-500 mr-10 ml-10 mt-20 w-80" width={300} height={300}/>
+        <div className="flex justify-center">
+            <img src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" alt="Profile" className=" border-2 border-red-500 mx-10 mb-0 mt-10 md:my-20 max:w-80" width={300} height={300}/>
         </div>
         </> 
     )
@@ -23,7 +23,7 @@ export const AboutMe = () => {
 
   const WhoIAm = () =>{
     return(
-        <div className=" md:basis-1/2 bg-black  text-white p-10 max-w-md justify-self-cente">
+        <div className=" md:basis-1/2 bg-black  text-white p-10 flex max-w-md justify-center">
             <div className="mb-4">
                 <h2 className="text-xl mb-2 text-red-500 md:text-2xl font-bold">ABOUT ME</h2>
                 <h1 className="text-4xl font-bold mb-4 md:text-5xl">Who am I ?</h1>

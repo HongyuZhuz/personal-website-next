@@ -53,7 +53,7 @@ export default function SideNav() {
                             </ul>
                           </div>
                 :<div></div>}
-    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+    <div className="hidden w-full md:block md:w-auto mr-4" id="navbar-default">
       <ul className="font-medium flex flex-row gap-4">
         {links.map((link)=>(
           <li key={link.name}>
