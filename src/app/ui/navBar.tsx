@@ -46,7 +46,7 @@ export default function SideNav() {
                             <ul className="font-medium flex flex-col m-2">
                               {links.map((link)=>(
                                 <li key={link.name}>
-                                  <a href={link.href} className={clsx("block  text-black  pl-2 py-2  border-black border-0 dark:text-white hover:text-red-600",{" border-l-red border-l-4":pathname===link.href})}>{link.name}</a>
+                                  <a href={link.href} className={clsx("block  text-black  pl-2 py-2  border-black border-0 dark:text-white hover:text-red-500",{" border-l-red border-l-4":pathname===link.href})}>{link.name}</a>
                                 </li>
                               ))
                               }
@@ -57,7 +57,7 @@ export default function SideNav() {
       <ul className="font-medium flex flex-row gap-4">
         {links.map((link)=>(
           <li key={link.name}>
-            <a href={link.href} className={clsx("block  text-black hover:text-red-600 dark:text-white ",{"text-red-600":pathname===link.href})}>{link.name}</a>
+            <a href={link.href} className={clsx("block  text-black hover:text-red-500 dark:text-white ",{"text-red-600":pathname===link.href})}>{link.name}</a>
           </li>
         ))
         }

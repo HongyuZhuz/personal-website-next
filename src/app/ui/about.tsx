@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 
 export const AboutMe = () => {
     return (
@@ -15,7 +15,14 @@ export const AboutMe = () => {
     return(
         <>
         <div className="flex justify-center">
-            <img src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" alt="Profile" className=" border-2 border-red-500 mx-10 mb-0 mt-10 md:my-20 max:w-80" width={300} height={300}/>
+          <Image 
+            src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" 
+            alt="Profile" 
+            width={80} 
+            height={120} 
+            className="border-2 border-red-500 mx-10 mb-0 mt-10 md:my-20 max-w-80"
+            layout="responsive"
+          />
         </div>
         </> 
     )
@@ -23,8 +30,8 @@ export const AboutMe = () => {
 
   const WhoIAm = () =>{
     return(
-        <div className=" md:basis-1/2 bg-black  text-white p-10 flex max-w-md justify-center">
-            <div className="mb-4">
+        <div className=" md:basis-1/2 bg-black  text-white p-10 flex md:max-w-md justify-center">
+            <div className="mb-4 md:max-w-md max-w-80">
                 <h2 className="text-xl mb-2 text-red-500 md:text-2xl font-bold">ABOUT ME</h2>
                 <h1 className="text-4xl font-bold mb-4 md:text-5xl">Who am I ?</h1>
                 <p className="text-lg mb-4 text-red-500">Outstanding learning ability and full of potential</p>
