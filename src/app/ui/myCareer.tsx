@@ -81,7 +81,7 @@ interface HeaderProps {
   // CareerSection 组件，不需要特定的属性
   const CareerSection: React.FC = () => (
     <section className="p-8">
-      {myCareer.map(c=>(<CareerItem role ={c.role} dateRange = {c.dateRange} company= {c.company} description={c.description}/>))}
+      {myCareer.map(c=>(<CareerItem key={c.company} role ={c.role} dateRange = {c.dateRange} company= {c.company} description={c.description}/>))}
     </section>
   );
   

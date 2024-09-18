@@ -6,11 +6,13 @@ import { Designer } from "./ui/designer";
 import { MyHobbyPage } from "./ui/hobbie";
 import { ContactInfo } from "./ui/contactInfo";
 import { Footer } from "./ui/footer";
+import SideNav from "./ui/navBar";
 
 export default function Home() {
   return (
    
     <div>
+      <SideNav/>
       <HeroSection/>
       <AboutMe/>
       <MyEducationSection/>
