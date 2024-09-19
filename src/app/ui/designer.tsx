@@ -1,33 +1,27 @@
-'use client'
-declare module 'react-image-gallery';
-import ImageGallery from "react-image-gallery";
-import "react-image-gallery/styles/css/image-gallery.css";
+
+import { fetchPortfolioData } from "../lib/data";
+import { ImageGalleryClient } from "./imageGalleryClient";
 
 
 
-const images = [{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-1+.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-2.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-3.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-4.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-5.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-6.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-7.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio-8.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-9.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-10.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-11.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-12.webp"},
-{original:"https://hyzpublic.s3.amazonaws.com/portfolio-webp/Portfolio+-13.webp"},]
+async function convetUrl ():Promise<Array<{ original: string }>> {
+  const data = await fetchPortfolioData();
 
-export const Designer=()=>{
+  const formattedImages = data.map((url:string) => ({ original: url }));
+  return formattedImages
+
+}
+
+
+export const Designer= async ()=>{
+  const images = await convetUrl()
     return(
         <div className=" bg-black bg-opacity-70 flex-col" id="portfolio">
           <div className='flex flex-col  max-w-5xl mx-auto' id="designer">
             <Header />
           </div>
-          <div className=" pb-10 md:pb-20 mt-5 md:px-10 text-red-500">
-          <ImageGallery items={images} showThumbnails={false} lazyLoad = {true} showPlayButton={false}/>
-          </div>
+          <ImageGalleryClient images={images} />
+          
         </div>
         )
 }

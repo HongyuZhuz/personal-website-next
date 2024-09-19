@@ -18,10 +18,9 @@ export const AboutMe = () => {
           <Image 
             src="https://hyzpublic.s3.amazonaws.com/My-profile.webp" 
             alt="Profile" 
-            width={80} 
+            width={320} 
             height={120} 
             className="border-2 border-red-500 mx-10 mb-0 mt-10 md:my-20 max-w-80"
-            layout="responsive"
           />
         </div>
         </> 

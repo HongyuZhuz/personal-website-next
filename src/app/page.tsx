@@ -7,8 +7,15 @@ import { MyHobbyPage } from "./ui/hobbie";
 import { ContactInfo } from "./ui/contactInfo";
 import { Footer } from "./ui/footer";
 import SideNav from "./ui/navBar";
+import { fetchPortfolioData } from "./lib/data";
 
-export default function Home() {
+
+
+export default async function Home() {
+  const data = await fetchPortfolioData();
+
+ 
+
   return (
    
     <div>
