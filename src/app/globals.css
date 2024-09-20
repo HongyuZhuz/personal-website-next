@@ -39,3 +39,11 @@ body {
 body {
   font-family: 'Raleway', sans-serif;
 }
+
+.filter-white {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.hover\:filter-red:hover {
+  filter: invert(42%) sepia(65%) saturate(5772%) hue-rotate(-5deg) brightness(94%) contrast(105%);
+}

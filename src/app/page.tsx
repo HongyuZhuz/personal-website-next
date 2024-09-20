@@ -5,14 +5,12 @@ import { MyCareer } from "./ui/myCareer";
 import { Designer } from "./ui/designer";
 import { MyHobbyPage } from "./ui/hobbie";
 import { ContactInfo } from "./ui/contactInfo";
-import { Footer } from "./ui/footer";
+import Footer from "./ui/footer";
 import SideNav from "./ui/navBar";
-import { fetchPortfolioData } from "./lib/data";
 
 
 
 export default async function Home() {
-  const data = await fetchPortfolioData();
 
  
 
@@ -24,8 +22,8 @@ export default async function Home() {
       <AboutMe/>
       <MyEducationSection/>
       <MyCareer/>
-      <Designer/>
-      <MyHobbyPage/>
+      {/*<Designer/>
+      <MyHobbyPage/>*/}
       <ContactInfo/>
       <Footer/>
     </div>
