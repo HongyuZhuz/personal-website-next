@@ -1,4 +1,6 @@
 import { fetchITProjectData } from "@/app/lib/data";
+import Link from "next/link";
+import { GoArrowUpRight } from "react-icons/go";
 
 
 export async function ItProjects ({projects}:{projects?:any}) {
@@ -12,7 +14,7 @@ export async function ItProjects ({projects}:{projects?:any}) {
           {data.map((project:any)=>{
             const p = project.attributes
             return (
-              <ImageComponent title={p.Name} imageSrc="/bg.jpg" icon="test" tags = {p.tags} url={p.url}/>
+              <ImageComponent title={p.Name} imageSrc="/bg.jpg" icon="test" tags = {p.tags} url={p.URL}/>
             )
           })}
         </div>
@@ -24,7 +26,8 @@ export async function ItProjects ({projects}:{projects?:any}) {
 const ImageComponent = ({ title, imageSrc, icon,tags,url }:{title:string,imageSrc:string,icon:string,tags:string[],url:string}) => {
 
     return (
-      <div className="relative inline-block h-36 overflow-hidden mx-5 w-full group">
+      <Link href={url} className="relative inline-block h-96 overflow-hidden w-full mx-10">
+      <div className="relative inline-block h-96 overflow-hidden  w-full group">
         <div className="absolute top-0 left-0 text-lg font-bold text-black bg-white rounded-tl-md py-3 px-5">
           {title}
         </div>
@@ -34,7 +37,7 @@ const ImageComponent = ({ title, imageSrc, icon,tags,url }:{title:string,imageSr
           className="w-full h-full object-cover rounded-md"
         />
         <div className="absolute bottom-0 right-0 text-xl text-black bg-white rounded-br-md py-3 px-5">
-          {icon}
+          <GoArrowUpRight className=" text-3xl"/>
         </div>
 
         {/* 半透明遮罩和左下角的文本，只有在 hover 时才显示 */}
@@ -47,5 +50,7 @@ const ImageComponent = ({ title, imageSrc, icon,tags,url }:{title:string,imageSr
     </div>
   </div>
       </div>
+      </Link>
+      
     );
   };
