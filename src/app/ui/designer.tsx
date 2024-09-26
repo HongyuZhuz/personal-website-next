@@ -11,8 +11,6 @@ async function convetUrl ():Promise<Array<{ original: string }>> {
   return formattedImages
 
 }
-
-
 export const Designer= async ()=>{
   const images = await convetUrl()
     return(
@@ -21,7 +19,6 @@ export const Designer= async ()=>{
             <Header />
           </div>
           <ImageGalleryClient images={images} />
-          
         </div>
         )
 }

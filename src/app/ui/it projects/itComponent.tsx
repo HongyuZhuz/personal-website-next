@@ -1,20 +1,30 @@
+import { fetchITProjectData } from "@/app/lib/data";
 
 
+export async function ItProjects ({projects}:{projects?:any}) {
+  const data = await fetchITProjectData();
 
-export function ItProjects ({projects}:{projects?:any}) {
+  
 
     return(
+      
         <div className="bg-black flex justify-center">
-        <ImageComponent title="test" imageSrc="/bg.jpg" icon="test"/>
+          {data.map((project:any)=>{
+            const p = project.attributes
+            return (
+              <ImageComponent title={p.Name} imageSrc="/bg.jpg" icon="test"/>
+            )
+          })}
         </div>
     )
-
 }
 
 
+
 const ImageComponent = ({ title, imageSrc, icon }:{title:string,imageSrc:string,icon:string}) => {
+  
     return (
-      <div className="relative inline-block w-72 h-96 overflow-hidden">
+      <div className="relative inline-block h-36 overflow-hidden mx-5 w-full">
         <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-br-md py-3 px-5">
           {title}
         </div>
