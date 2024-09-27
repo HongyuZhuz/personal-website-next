@@ -3,6 +3,8 @@ import { usePathname } from "next/navigation"
 import Link from "next/link"
 import clsx from "clsx";
 import { useState ,useEffect} from "react";
+import Image from "next/image";
+
 
 const links = [
   { name: 'Home', href: '/' },
@@ -29,6 +31,7 @@ export default function SideNav() {
             <div className="w-screen flex flex-wrap items-center justify-between md:mx-auto md:p-4">
               <div className="flex flex-row justify-between p-4 md:p-0 w-screen md:w-auto">
                 <Link href="/" className="flex  items-center space-x-3 rtl:space-x-reverse">
+                <Image src='/favicon.ico' alt="icon" width={20} height={20}></Image>
                       <span className="self-center   font-bold text-xl whitespace-nowrap dark:text-white">Hongyu Zhu</span>
                       {pathname==="/developer"&&<span className="text-red-500 font-bold text-xl">| Developer</span>}
                       {pathname==="/designer"&&<span className="text-red-500 font-bold text-xl">| Designer</span>}
