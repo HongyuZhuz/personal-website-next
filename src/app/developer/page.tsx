@@ -1,6 +1,5 @@
 
 import { ItProjects } from "../ui/it projects/itComponent";
-import Footer from "../ui/footer";
 
 
 

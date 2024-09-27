@@ -25,7 +25,7 @@ export const Designer= async ()=>{
 
 const Header = () =>(
   <>
-    <header className="text-white mt-8 ml-8">
+    <header className="text-white mt-20 ml-8 ">
         <div className=" flex flex-col md:mt-10">
             <h1 className="text-red-500 text-xl font-bold">MY PORTFOLIO</h1>
             <h2 className="text-white text-4xl">As a <span className="font-bold">Designer</span></h2>

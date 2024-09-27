@@ -2,7 +2,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import PageTransition from "./PageTransition";
-import HeroSection from "./ui/heroSection";
 import SideNav from "./ui/navBar";
 import Footer from "./ui/footer";
 import { ContactInfo } from "./ui/contactInfo";
