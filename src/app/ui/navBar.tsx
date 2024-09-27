@@ -58,8 +58,6 @@ export default function SideNav() {
     <div className="hidden w-full md:block md:w-auto mr-4" id="navbar-default">
       <ul className="font-medium flex flex-row gap-4">
         {links.map((link)=>{
-          console.log("pathname is: "+pathname)
-          console.log("link href is: "+link.href)
           return(<li key={link.name} className="text-white ">
             <a href={link.href} className={clsx(" hover:text-red-500 ",{"text-red-500":pathname===link.href})}>{link.name}</a>
           </li>)
