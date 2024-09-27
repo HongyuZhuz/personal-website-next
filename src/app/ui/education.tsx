@@ -5,7 +5,7 @@ interface SkillProps {
 interface SkillsProps {
     s:Array<SkillProps>;
 }
-let developingSkill:Array<SkillProps> = [
+const developingSkill:Array<SkillProps> = [
     
     {name:"HTML,CSS,JavaScript Knowledge",
     p:"96%"
@@ -26,7 +26,7 @@ let developingSkill:Array<SkillProps> = [
     p:"70%"
     },
 ]
-let designSkill:Array<SkillProps> = [
+const designSkill:Array<SkillProps> = [
     {name:"UI/UX Design Expertise",
     p:"100%"
     },
