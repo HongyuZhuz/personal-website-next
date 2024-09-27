@@ -101,14 +101,14 @@ const Education = () =>{
                 <p className="text-red-500 font-bold">2018-2020</p>
                 <h2 className="text-2xl font-bold">Master of Computing</h2>
                 <p className="text-sm">A two-year Masters Degree provided by Australian National University, which enabled me to develop a deep and in-depth knowledge and understanding of professional software development and computing practices.</p>
-                <a href="#more" className="text-red-500 underline">More</a>
+                <a href="/developer" className="text-red-500 underline">More</a>
             </div>
             <div className="my-4">
                 <h3 className="text-md text-white">As a designer</h3>
                 <p className="text-red-500 font-bold">2014-2018</p>
                 <h2 className="text-2xl font-bold">Bachelor of Landscape Architecture</h2>
                 <p className="text-sm">Beijing Forestry University offers the best Landscape Architecture program in China. This four-year curriculum enabled me to develop deep understanding in the area Architecture, Landscape Architecture and Digital Design.</p>
-                <a href="#designer" className="text-red-500 underline">More</a>
+                <a href="/designer" className="text-red-500 underline">More</a>
             </div>
         </div>
     )

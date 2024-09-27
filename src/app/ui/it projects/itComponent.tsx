@@ -38,7 +38,7 @@ export async function ItProjects () {
 const ImageComponent = ({ title, imageSrc, tags,url, description }:{title:string,imageSrc:string,tags:string[],url:string, description:BlocksContent}) => {
 
     return (
-      <Link href={url} className="flex w-full relative  h-[400px] my-2 flex-wrap border border-red-500 rounded-md">
+      <Link href={url} className="flex w-full relative  md:h-[400px] h-auto my-2 flex-wrap border border-red-500 rounded-md">
       <div className="relative inline-block w-full group h-full">
         <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
           {title}
