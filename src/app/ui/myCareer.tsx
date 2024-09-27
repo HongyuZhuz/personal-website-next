@@ -6,7 +6,7 @@ interface CareerItemProps {
 }
 
 
-let myCareer:Array<CareerItemProps> = [{
+const myCareer:Array<CareerItemProps> = [{
     role:"Digitization assistant",
     dateRange:"08.2023 - Now",
     company:"TIMG Pty Ltd.",

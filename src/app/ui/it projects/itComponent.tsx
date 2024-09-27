@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { BlocksRenderer, type BlocksContent } from '@strapi/blocks-react-renderer';
 
 
-export async function ItProjects ({projects}:{projects?:any}) {
+export async function ItProjects () {
   const data = await fetchITProjectData();
 
   
@@ -14,12 +14,13 @@ export async function ItProjects ({projects}:{projects?:any}) {
         <div className="flex flex-col max-w-5xl  mx-4 md:mx-auto">
         <Header/>
         <div className="bg-black flex  flex-col justify-center  ">
-          {data.map((project:any)=>{
+          {data.map((project:Project)=>{
+            console.log(project)
             const p = project.attributes
             const img =p.showcase.data[0].attributes.url
             const description: BlocksContent = p.Description;
             return (
-              <ImageComponent key={project.id} title={p.Name} imageSrc={img} icon="test" tags = {p.tags} url={p.URL} description={description}/>
+              <ImageComponent key={project.id} title={p.Name} imageSrc={img} tags = {p.tags} url={p.URL} description={description}/>
             )
           })}
         </div>
@@ -34,7 +35,7 @@ export async function ItProjects ({projects}:{projects?:any}) {
 
 
 
-const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:string,imageSrc:string,icon:string,tags:string[],url:string, description:BlocksContent}) => {
+const ImageComponent = ({ title, imageSrc, tags,url, description }:{title:string,imageSrc:string,tags:string[],url:string, description:BlocksContent}) => {
 
     return (
       <Link href={url} className="flex w-full relative  h-[400px] my-2 flex-wrap border border-red-500 rounded-md">
@@ -84,3 +85,41 @@ const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:s
       </div>
     </header>
   );
+
+
+  // 定义 Showcase 类型
+type Showcase = {
+  data: Array<{
+    attributes: {
+      url: string;
+    };
+  }>;
+};
+
+
+type Description = BlocksContent;
+
+// 定义 ProjectAttributes 类型
+type ProjectAttributes = {
+  Name: string;
+  createdAt: string;
+  updatedAt: string;
+  publishedAt: string;
+  tags: string[];
+  URL: string;
+  Description: Description; // Description 是对象数组
+  showcase: Showcase; // showcase 包含图片数据
+  icon: {
+    data: null | {
+      attributes: {
+        url: string;
+      };
+    };
+  };
+};
+
+// 定义 Project 类型
+type Project = {
+  id: number;
+  attributes: ProjectAttributes;
+};
