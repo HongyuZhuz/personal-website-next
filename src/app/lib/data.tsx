@@ -42,3 +42,17 @@ export async function fetchITProjectData() {
 
   }
 }
+
+export async function fetchResume() {
+  try{
+    const response = await axios.get(`${apiUrl}/api/upload/files/47`,{
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },})
+      const url = response.data.url;
+      
+      return (url)
+  } catch(error){
+    console.error("can't get resume"+ error)
+  }
+}

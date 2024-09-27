@@ -1,13 +1,15 @@
-'use client'
+
 import Link from "next/link"
 import Image from "next/image"
+import { fetchResume } from "../lib/data"
 
-export default function Footer () {
+export default async function Footer () {
+    const url = await fetchResume()
     return(
         <div className="flex flex-col justify-center text-center pb-20 font-normal bg-black">
             <hr className=" md:mx-36 mx-10 opacity-30"/>
             <p className="text-white text-xl pt-20 ">Hongyu&apos;s personal website</p>
-            <Link className=" text-gray-300 text-xl pt-3 underline hover:text-gray-500" href = "/api/resume">Download Resume</Link>
+            <Link className=" text-gray-300 text-xl pt-3 underline hover:text-gray-500" href = {url}>Download Resume</Link>
             <IconList />
         </div>
     )

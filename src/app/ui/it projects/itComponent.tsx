@@ -16,7 +16,7 @@ export async function ItProjects () {
         <Header/>
         <div className="bg-black flex  flex-col justify-center  ">
           {data.map((project:Project)=>{
-            console.log(project)
+
             const p = project.attributes
             const img =p.showcase.data[0].attributes.url
             const description: BlocksContent = p.Description;
