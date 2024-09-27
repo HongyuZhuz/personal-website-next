@@ -25,9 +25,6 @@ export default async function Home() {
       <ItProjects/>
       <Designer/>
       <MyHobbyPage/>
-      <ContactInfo/>
-      
-      <Footer/>
     </div>
   );
 }

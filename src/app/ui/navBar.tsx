@@ -6,11 +6,8 @@ import { useState ,useEffect} from "react";
 
 const links = [
   { name: 'Home', href: '/' },
-  {name:'About Me',href:'#'},
   {name:'Developer',href:'/developer'},
-  {name:'Career',href:'#career'},
-  {name:'Portfolio',href:'#portfolio'},
-  {name:'Hobbie',href:'#hobbie'},
+  {name:'Designer',href:'/designer'},
 
 ];
 
@@ -34,6 +31,7 @@ export default function SideNav() {
                 <Link href="/" className="flex  items-center space-x-3 rtl:space-x-reverse">
                       <span className="self-center   font-bold text-xl whitespace-nowrap dark:text-white">Hongyu Zhu</span>
                       {pathname==="/developer"&&<span className="text-red-500 font-bold text-xl">|Developer</span>}
+                      {pathname==="/designer"&&<span className="text-red-500 font-bold text-xl">|Designer</span>}
                   </Link>
                   <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false" onClick={handleMenuClick}>
                       <span className="sr-only">Open main menu</span>
@@ -60,7 +58,7 @@ export default function SideNav() {
           console.log("pathname is: "+pathname)
           console.log("link href is: "+link.href)
           return(<li key={link.name} className="text-white ">
-            <a href={link.href} className={clsx(" hover:text-red-500 ",{"text-red-600":pathname===link.href})}>{link.name}</a>
+            <a href={link.href} className={clsx(" hover:text-red-500 ",{"text-red-500":pathname===link.href})}>{link.name}</a>
           </li>)
           
         })

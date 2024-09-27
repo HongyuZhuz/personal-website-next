@@ -4,6 +4,8 @@ import "./globals.css";
 import PageTransition from "./PageTransition";
 import HeroSection from "./ui/heroSection";
 import SideNav from "./ui/navBar";
+import Footer from "./ui/footer";
+import { ContactInfo } from "./ui/contactInfo";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -32,6 +34,8 @@ export default function RootLayout({
         
         {/* 使用 PageTransition 包裹页面内容 */}
         <PageTransition>{children}</PageTransition>
+        <ContactInfo/>
+        <Footer/>
       </body>
     </html>
   );
