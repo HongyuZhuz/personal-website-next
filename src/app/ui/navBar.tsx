@@ -25,7 +25,7 @@ export default function SideNav() {
 
 
     return(
-        <nav className="bg-white dark:bg-black top-0 left-0 right-0 z-50  fixed">
+        <nav className="bg-white dark:bg-black top-0 left-0 right-0 z-50   fixed">
             <div className="w-screen flex flex-wrap items-center justify-between md:mx-auto md:p-4">
               <div className="flex flex-row justify-between p-4 md:p-0 w-screen md:w-auto">
                 <Link href="/" className="flex  items-center space-x-3 rtl:space-x-reverse">

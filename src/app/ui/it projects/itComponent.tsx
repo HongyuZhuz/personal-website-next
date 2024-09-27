@@ -1,4 +1,4 @@
-'use client'
+
 import { fetchITProjectData } from "@/app/lib/data";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
