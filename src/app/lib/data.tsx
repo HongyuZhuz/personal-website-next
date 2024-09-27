@@ -23,7 +23,7 @@ export async function fetchPortfolioData() {
 
 export async function fetchITProjectData() {
   try {
-    const response = await axios.get(`${apiUrl}/api/it-projects?populate=*`, {
+    const response = await axios.get(`${apiUrl}/api/it-projects?populate=*&sort=createdAt:asc`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },}

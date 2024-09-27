@@ -1,6 +1,7 @@
 import { fetchITProjectData } from "@/app/lib/data";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
+import { BlocksRenderer, type BlocksContent } from '@strapi/blocks-react-renderer';
 
 
 export async function ItProjects ({projects}:{projects?:any}) {
@@ -12,13 +13,14 @@ export async function ItProjects ({projects}:{projects?:any}) {
       <div className="bg-black md:pb-20 pb-10 ">
         <div className="flex flex-col max-w-5xl  mx-4 md:mx-auto">
         <Header/>
-        <div className="bg-black flex  flex-col justify-center">
+        <div className="bg-black flex  flex-col justify-center  ">
           {data.map((project:any)=>{
             const p = project.attributes
             const img =p.showcase.data[0].attributes.url
-            console.log(p)
+            const description: BlocksContent = p.Description;
+            console.log(description)
             return (
-              <ImageComponent key={project.id} title={p.Name} imageSrc={img} icon="test" tags = {p.tags} url={p.URL} description={p.Description}/>
+              <ImageComponent key={project.id} title={p.Name} imageSrc={img} icon="test" tags = {p.tags} url={p.URL} description={description}/>
             )
           })}
         </div>
@@ -32,11 +34,12 @@ export async function ItProjects ({projects}:{projects?:any}) {
 
 
 
-const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:string,imageSrc:string,icon:string,tags:string[],url:string, description:string}) => {
+
+const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:string,imageSrc:string,icon:string,tags:string[],url:string, description:BlocksContent}) => {
 
     return (
-      <Link href={url} className="flex w-full relative  h-[400px] my-2 flex-wrap">
-      <div className="relative inline-block w-full group max-h-[400px]">
+      <Link href={url} className="flex w-full relative  h-[400px] my-2 flex-wrap border border-red-500 rounded-md">
+      <div className="relative inline-block w-full group h-full">
         <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
           {title}
         </div>
@@ -49,19 +52,20 @@ const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:s
           <GoArrowUpRight className=" text-3xl"/>
         </div>
         {/* 半透明遮罩和左下角的文本，只有在 hover 时才显示 */}
+
+
   <div className="absolute inset-0 bg-red-800 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-md">
-  <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
-          {title}
+      <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
+              {title}
+      </div>
+      <div className="absolute inset-0 flex flex-col items-start justify-center text-white p-8 max-h-30 overflow-hidden text-clip">
+        <BlocksRenderer content={description} />
+      </div>
+        <div className="absolute bottom-0 left-0 text-white p-5 flex flex-row max-w-96 flex-wrap">
+          {tags.map((tag)=>(
+            <p key={tag} className="text-sm border-white border p-1 m-1">{tag}</p>
+          ))}
         </div>
-    <div className="absolute inset-0 flex items-center justify-center text-white p-8">
-      {description}
-    </div>
-    <div className="absolute bottom-0 left-0 text-white p-5 flex flex-row max-w-96 flex-wrap">
-      {/* 自定义的几行文本 */}
-      {tags.map((tag)=>(
-        <p key={tag} className="text-sm border-white border-2 p-1 m-1">{tag}</p>
-      ))}
-    </div>
     <div className="absolute bottom-0 right-0 text-xl text-white bg-black rounded-br-md rounded-tl-md py-3 px-5">
           <GoArrowUpRight className=" text-3xl"/>
         </div>
