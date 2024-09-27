@@ -28,8 +28,6 @@ export async function fetchITProjectData() {
         Authorization: `Bearer ${token}`,
       },}
     );
-    console.log (response.data.data[0].attributes.showcase.data)
-
     return (response.data.data)
 
   } catch(error) {

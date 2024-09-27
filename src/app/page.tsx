@@ -23,10 +23,11 @@ export default async function Home() {
       <AboutMe/>
       <MyEducationSection/>
       <MyCareer/>
+      <ItProjects/>
       <Designer/>
       <MyHobbyPage/>
       <ContactInfo/>
-      <ItProjects/>
+      
       <Footer/>
     </div>
   );
