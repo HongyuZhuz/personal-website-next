@@ -1,3 +1,4 @@
+'use client'
 import { fetchITProjectData } from "@/app/lib/data";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
@@ -38,9 +39,9 @@ export async function ItProjects () {
 const ImageComponent = ({ title, imageSrc, tags,url, description }:{title:string,imageSrc:string,tags:string[],url:string, description:BlocksContent}) => {
 
     return (
-      <Link href={url} className="flex w-full relative  md:h-[400px] h-auto my-2 flex-wrap border border-red-500 rounded-md">
+      <Link href={url} className="flex w-full relative  h-[400px] my-2 flex-wrap border border-red-500 rounded-md">
       <div className="relative inline-block w-full group h-full">
-        <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
+        <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md rounded-br-md py-3 px-5">
           {title}
         </div>
         <img
@@ -58,10 +59,10 @@ const ImageComponent = ({ title, imageSrc, tags,url, description }:{title:string
       <div className="absolute top-0 left-0 text-lg font-bold text-white bg-black rounded-tl-md  rounded-br-md py-3 px-5">
               {title}
       </div>
-      <div className="absolute inset-0 flex flex-col items-start justify-center text-white p-8 max-h-30 overflow-hidden text-clip">
+      <div className="absolute inset-0 md:flex flex-col items-start justify-center text-white p-8 max-h-30 overflow-hidden hidden">
         <BlocksRenderer content={description} />
       </div>
-        <div className="absolute bottom-0 left-0 text-white p-5 flex flex-row max-w-96 flex-wrap">
+        <div className="absolute bottom-0 left-0 text-white p-5 flex flex-row md:max-w-96 flex-wrap max-w-72">
           {tags.map((tag)=>(
             <p key={tag} className="text-sm border-white border p-1 m-1">{tag}</p>
           ))}
