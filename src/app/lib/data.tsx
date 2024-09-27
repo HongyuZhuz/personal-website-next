@@ -4,6 +4,12 @@ import axios from 'axios';
 const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
 const token = process.env.NEXT_PUBLIC_API_TOKEN as string;
 
+type ImageType = {
+  attributes: {
+    url: string;
+  };
+};
+
 export async function fetchPortfolioData() {
   try {
     const response = await axios.get(`${apiUrl}/api/landscape-portfolio?populate=*`, {
@@ -11,8 +17,8 @@ export async function fetchPortfolioData() {
         Authorization: `Bearer ${token}`,
       },
     });
-    const images = response.data.data.attributes.images.data;
-    const imageUrls = images.map((image:any) => image.attributes.url);
+    const images:ImageType[] = response.data.data.attributes.images.data;
+    const imageUrls = images.map((image:ImageType) => image.attributes.url as string);
     
     return imageUrls; // 返回解析后的 JSON 数据
   } catch (error) {
