@@ -1,5 +1,9 @@
+
 import type { Metadata } from "next";
 import "./globals.css";
+import PageTransition from "./PageTransition";
+import HeroSection from "./ui/heroSection";
+import SideNav from "./ui/navBar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -11,6 +15,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+
   return (
     <html lang="en">
       <head>
@@ -22,7 +28,10 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        {children}
+        <SideNav/>
+        
+        {/* 使用 PageTransition 包裹页面内容 */}
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );

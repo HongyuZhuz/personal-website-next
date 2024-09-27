@@ -18,7 +18,6 @@ export async function ItProjects ({projects}:{projects?:any}) {
             const p = project.attributes
             const img =p.showcase.data[0].attributes.url
             const description: BlocksContent = p.Description;
-            console.log(description)
             return (
               <ImageComponent key={project.id} title={p.Name} imageSrc={img} icon="test" tags = {p.tags} url={p.URL} description={description}/>
             )
@@ -77,7 +76,7 @@ const ImageComponent = ({ title, imageSrc, icon,tags,url, description }:{title:s
     );
   };
 
-  const Header = () => (
+  export const Header = () => (
     <header className="mt-4 ml-8 mb-10 text-white">
       <div className="flex flex-col mt-20">
         <h1 className="text-red-500 text-xl font-bold">MY PROJECTS</h1>

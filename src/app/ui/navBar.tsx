@@ -5,9 +5,9 @@ import clsx from "clsx";
 import { useState ,useEffect} from "react";
 
 const links = [
-  { name: 'Home', href: '#' },
-  {name:'About Me',href:'#about-me'},
-  {name:'Education',href:'#education'},
+  { name: 'Home', href: '/' },
+  {name:'About Me',href:'#'},
+  {name:'Developer',href:'/developer'},
   {name:'Career',href:'#career'},
   {name:'Portfolio',href:'#portfolio'},
   {name:'Hobbie',href:'#hobbie'},
@@ -33,6 +33,7 @@ export default function SideNav() {
               <div className="flex flex-row justify-between p-4 md:p-0 w-screen md:w-auto">
                 <Link href="/" className="flex  items-center space-x-3 rtl:space-x-reverse">
                       <span className="self-center   font-bold text-xl whitespace-nowrap dark:text-white">Hongyu Zhu</span>
+                      {pathname==="/developer"&&<span className="text-red-500 font-bold text-xl">|Developer</span>}
                   </Link>
                   <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false" onClick={handleMenuClick}>
                       <span className="sr-only">Open main menu</span>
@@ -46,7 +47,7 @@ export default function SideNav() {
                             <ul className="font-medium flex flex-col m-2">
                               {links.map((link)=>(
                                 <li key={link.name}>
-                                  <a href={link.href} className={clsx("block  text-black  pl-2 py-2  border-black border-0 dark:text-white hover:text-red-500",{" border-l-red border-l-4":pathname===link.href})}>{link.name}</a>
+                                  <a href={link.href} className={clsx("block  text-black  pl-2 py-2  border-black border-0 dark:text-white hover:text-red-500",{"  border-l-red-600 border-l-4":pathname===link.href})}>{link.name}</a>
                                 </li>
                               ))
                               }
@@ -55,11 +56,14 @@ export default function SideNav() {
                 :<div></div>}
     <div className="hidden w-full md:block md:w-auto mr-4" id="navbar-default">
       <ul className="font-medium flex flex-row gap-4">
-        {links.map((link)=>(
-          <li key={link.name}>
-            <a href={link.href} className={clsx("block  text-black hover:text-red-500 dark:text-white ",{"text-red-600":pathname===link.href})}>{link.name}</a>
-          </li>
-        ))
+        {links.map((link)=>{
+          console.log("pathname is: "+pathname)
+          console.log("link href is: "+link.href)
+          return(<li key={link.name} className="text-white ">
+            <a href={link.href} className={clsx(" hover:text-red-500 ",{"text-red-600":pathname===link.href})}>{link.name}</a>
+          </li>)
+          
+        })
         }
       </ul>
     </div>
