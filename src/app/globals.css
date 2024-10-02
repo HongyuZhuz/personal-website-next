@@ -21,10 +21,9 @@
   }
 }
 
-body {
-  @apply bg-center bg-cover;
-  background-image:url('./img/bg.jpg');
-  background-attachment:fixed;
+.backgroundImage {
+  background-image: url('./img/bg.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }

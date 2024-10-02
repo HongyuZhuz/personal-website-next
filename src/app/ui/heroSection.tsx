@@ -4,6 +4,7 @@ import Link from "next/link"
     return(
         <div>
             <section id="home">
+            <div className="md:pt-12 pt-4">
             <div className="w-full bg-black bg-opacity-50 bg-cover bg-no-repeat text-white p-12 mt-32 mb-20">
                 <div className="md:w-1/2 md:mx-auto ">
                     <p className="text-3xl ml-1">I&apos;m Hongyu Zhu</p>
@@ -20,6 +21,7 @@ import Link from "next/link"
                     </a>
                 </div>
 
+            </div>
             </div>
             </section> 
         </div>
