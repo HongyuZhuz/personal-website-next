@@ -56,3 +56,18 @@ export async function fetchResume() {
     console.error("can't get resume"+ error)
   }
 }
+
+export async function getTopEditPhotos() {
+  try {
+    const response = await axios.get(`${apiUrl}/api/top-edit-photo?populate=*`,{
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    console.log(response.data.data)
+    return response.data;
+  } catch (error) {
+    console.error('获取顶级编辑照片时出错:', error);
+    throw error;
+  }
+}

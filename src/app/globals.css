@@ -47,3 +47,10 @@ body {
 .hover\:filter-red:hover {
   filter: invert(42%) sepia(65%) saturate(5772%) hue-rotate(-5deg) brightness(94%) contrast(105%);
 }
+
+.photo-album-container {
+  width: 100%;
+  max-width: 1200px; /* 或其他合适的最大宽度 */
+  margin: 0 auto;
+}
+
