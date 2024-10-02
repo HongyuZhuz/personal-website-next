@@ -12,7 +12,9 @@ const raleway = Raleway({ subsets: ['latin'], })
 export const metadata: Metadata = {
   title: `Hongyu Zhu${`'`}s Personal Website`,
   description: `Personal website of Hongyu Zhu`,
-  icons:'favicon.ico'
+  icons:{
+    icon: '/favicon.ico', // 注意这里的路径
+  },
   
 };
 
