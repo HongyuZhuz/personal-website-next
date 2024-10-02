@@ -6,7 +6,7 @@ const MasonryGallery = dynamic(() => import('./masonry'), { ssr: false });
 export default async function Page() {
     const topEditPhotosData = await getTopEditPhotos();
     
-    const photos = topEditPhotosData.data.attributes.photos.data.map((photo: any) => ({
+    const photos = topEditPhotosData.data.attributes.photos.data.map((photo: { attributes: { url: string; width: number; height: number; }; id: string | number; }) => ({
       src: photo.attributes.url,
       width: photo.attributes.width,
       height: photo.attributes.height,
