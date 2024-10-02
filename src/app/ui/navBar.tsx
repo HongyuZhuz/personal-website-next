@@ -1,4 +1,5 @@
 'use client'
+import React from 'react';
 import { usePathname } from "next/navigation"
 import Link from "next/link"
 import clsx from "clsx";
@@ -34,7 +35,12 @@ export default function SideNav() {
               <span className="self-center font-bold text-xl whitespace-nowrap dark:text-white">Hongyu Zhu</span>
               {pathname === "/developer" && <span className="text-red-500 font-bold text-xl ml-2">| Developer</span>}
               {pathname === "/designer" && <span className="text-red-500 font-bold text-xl ml-2">| Designer</span>}
-              {pathname === "/photographer" && <span className="text-red-500 font-bold text-xl ml-2">| Photographer</span>}
+              {pathname === "/photographer" && (
+                <>
+                  <span className="text-red-500 font-bold text-xl ml-2 hidden sm:inline">| Photographer</span>
+                  <span className="text-red-500 font-bold text-xl ml-2 sm:hidden">| Photo</span>
+                </>
+              )}
             </Link>
           </div>
           
