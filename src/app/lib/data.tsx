@@ -71,3 +71,19 @@ export async function getTopEditPhotos() {
     throw error;
   }
 }
+
+export async function getGraphicDesignPortfolio() {
+  try {
+    const response = await axios.get(`${apiUrl}/api/graphic-design-portfolio?populate=*`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    return response.data;
+  } catch (error) {
+    console.error('获取平面设计作品集时出错:', error);
+    throw error;
+  }
+}
+
+
