@@ -28,12 +28,12 @@ export default async function Home() {
    
     <div className="backgroundImage">
       <Designer/>
-      <div className="bg-black">
+     {/* <div className="bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <h1 className="text-4xl font-bold mb-6 mt-20 text-left border-l-4 border-red-500 pl-4 text-red-500">Graphic Design Portfolio</h1>
         <MasonryGallery photos={photos} />
       </div>
-    </div>
+    </div>*/}
     </div>
   );
 }
