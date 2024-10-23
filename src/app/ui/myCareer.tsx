@@ -12,10 +12,10 @@ const myCareer:Array<CareerItemProps> = [{
     company:"TIMG Pty Ltd.",
     description:
     <ul>
-    <li><span className="font-bold">Data Analysis in Document Digitization:</span> Efficiently digitized up to 2,700 pages daily, utilizing data analysis skills for accuracy and quality assurance.</li>
-    <li><span className="font-bold">Data Entry and Analysis:</span> Accurately processed over 700 data points daily, demonstrating proficiency in data analytics and adherence to standards.</li>
-    <li><span className="font-bold">IT Systems & Data Management:</span> Expertly managed internal systems and data using Microsoft Office, ensuring integrity and operational efficiency.</li>
-    <li><span className="font-bold">Collaborative IT and Data Projects:</span> Actively participated in national IT projects, balancing team collaboration with independent data analysis tasks.</li>
+    
+    <li>Developed and optimized an AI-based chatbot for customer support, increasing response accuracy by 40% and reducing response time by 30%. Designed and implemented scalable solutions to improve customer engagement and support.</li>
+    <li>Managed and optimized a WordPress website, resolving technical issues and improving content management efficiency by 50%. Led efforts to enhance website performance, speed, and user experience.</li>
+    <li>Led final-stage QA testing for customer-facing products, ensuring both design and data accuracy before release. Significantly reduced post-deployment issues through attention to detail and commitment to quality.</li>
   </ul>
 },
 {
@@ -34,6 +34,8 @@ const myCareer:Array<CareerItemProps> = [{
     company:"Anti Chaos Solutions Pty Ltd.",
     description:
     <ul>
+        <li>Maintained and optimized high-traffic WordPress websites, ensuring optimal performance, security, and user experience. Utilized advanced WordPress functionalities and plugins to improve loading speeds and overall site efficiency.</li>
+        <li>Extensively used WordPress as a headless CMS, leveraging its API to build flexible, scalable front-end solutions with frameworks like React. This approach enhanced scalability and provided clients with a more personalized and efficient content management experience.</li>
         <li>Spearheaded the development of Python scripts in Lexis Affinity, significantly enhancing automation efficiency in managing customer needs, mass mailing, contract changes, and document processing</li>
         <li>Offered expert recommendations on software utilization, upgrades, and migration with a specific focus on systems design, messaging tools, software libraries, workflow management platforms, and databases, contributing to the optimization of system operations and workflow efficiency</li>
     </ul>
