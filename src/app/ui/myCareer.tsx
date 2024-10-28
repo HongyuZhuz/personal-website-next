@@ -12,7 +12,6 @@ const myCareer:Array<CareerItemProps> = [{
     company:"TIMG Pty Ltd.",
     description:
     <ul>
-    
     <li>Developed and optimized an AI-based chatbot for customer support, increasing response accuracy by 40% and reducing response time by 30%. Designed and implemented scalable solutions to improve customer engagement and support.</li>
     <li>Managed and optimized a WordPress website, resolving technical issues and improving content management efficiency by 50%. Led efforts to enhance website performance, speed, and user experience.</li>
     <li>Led final-stage QA testing for customer-facing products, ensuring both design and data accuracy before release. Significantly reduced post-deployment issues through attention to detail and commitment to quality.</li>

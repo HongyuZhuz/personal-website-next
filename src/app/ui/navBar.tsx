@@ -26,7 +26,7 @@ export default function SideNav() {
   },[pathname])
 
   return(
-    <nav className="bg-white dark:bg-black top-0 left-0 right-0 z-50 fixed">
+    <nav className="bg-black top-0 left-0 right-0 z-50 fixed">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
