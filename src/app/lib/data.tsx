@@ -1,14 +1,40 @@
 import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
 
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
 const token = process.env.NEXT_PUBLIC_API_TOKEN as string;
+
+const dataFilePath = path.resolve(process.cwd(), 'data.json');
 
 type ImageType = {
   attributes: {
     url: string;
   };
 };
+
+async function writeDataToFile(data: any, key: string) {
+  try {
+    const fileData = fs.existsSync(dataFilePath) ? JSON.parse(fs.readFileSync(dataFilePath, 'utf-8')) : {};
+    fileData[key] = data;
+    fs.writeFileSync(dataFilePath, JSON.stringify(fileData, null, 2));
+  } catch (error) {
+    console.error('写入数据到文件时出错:', error);
+  }
+}
+
+async function readDataFromFile(key: string) {
+  try {
+    if (fs.existsSync(dataFilePath)) {
+      const fileData = JSON.parse(fs.readFileSync(dataFilePath, 'utf-8'));
+      return fileData[key];
+    }
+  } catch (error) {
+    console.error('从文件读取数据时出错:', error);
+  }
+  return null;
+}
 
 export async function fetchPortfolioData() {
   try {
@@ -19,11 +45,13 @@ export async function fetchPortfolioData() {
     });
     const images:ImageType[] = response.data.data.attributes.images.data;
     const imageUrls = images.map((image:ImageType) => image.attributes.url as string);
-    
+
+
+    await writeDataToFile(imageUrls, 'portfolioData');
     return imageUrls; // 返回解析后的 JSON 数据
   } catch (error) {
     console.error("Error fetching data:", error);
-    throw new Error("Failed to fetch data");
+    return readDataFromFile('portfolioData');
   }
 }
 
@@ -34,11 +62,13 @@ export async function fetchITProjectData() {
         Authorization: `Bearer ${token}`,
       },}
     );
-    return (response.data.data)
+    const data = response.data.data;
+    await writeDataToFile(data, 'itProjectData');
+    return (data)
 
   } catch(error) {
     console.error ("Error fetching IT project data", error);
-    throw new Error ("Failed to fetch It Project data")
+    return readDataFromFile('itProjectData');
 
   }
 }
@@ -50,10 +80,11 @@ export async function fetchResume() {
         Authorization: `Bearer ${token}`,
       },})
       const url = response.data.url;
-      
+      await writeDataToFile(url, 'resume');
       return (url)
   } catch(error){
     console.error("can't get resume"+ error)
+    return readDataFromFile('resume');
   }
 }
 
@@ -64,11 +95,12 @@ export async function getTopEditPhotos() {
         Authorization: `Bearer ${token}`,
       },
     });
-    console.log(response.data.data)
-    return response.data;
+    const data = response.data
+    await writeDataToFile(data, 'topEditPhotos');
+    return data;
   } catch (error) {
     console.error('获取顶级编辑照片时出错:', error);
-    throw error;
+    return readDataFromFile('topEditPhotos');
   }
 }
 
@@ -79,10 +111,12 @@ export async function getGraphicDesignPortfolio() {
         Authorization: `Bearer ${token}`,
       },
     });
-    return response.data;
+    const data = response.data;
+    await writeDataToFile(data, 'graphicDesignPortfolio');
+    return data;
   } catch (error) {
     console.error('获取平面设计作品集时出错:', error);
-    throw error;
+    return readDataFromFile('graphicDesignPortfolio');
   }
 }
 
