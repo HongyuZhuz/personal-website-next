@@ -14,7 +14,7 @@ type ImageType = {
   };
 };
 
-async function writeDataToFile(data: any, key: string) {
+async function writeDataToFile(data: Record<string, unknown>, key: string) {
   try {
     const fileData = fs.existsSync(dataFilePath) ? JSON.parse(fs.readFileSync(dataFilePath, 'utf-8')) : {};
     fileData[key] = data;
