@@ -6,7 +6,21 @@ interface CareerItemProps {
 }
 
 
-const myCareer:Array<CareerItemProps> = [{
+const myCareer:Array<CareerItemProps> = [
+  {
+    role:"Backup Engineer",
+    dateRange:"11.2024 - Now",
+    company:"TIMG Pty Ltd.",
+    description:
+    <ul>
+    <li>Provided Level 1 and 2 support, resolving issues within 4-hour response time and maintaining sub-2-day RPO.</li>
+        <li>Designed and implemented data protection solutions across VMware, Hyper-V, Azure, and AWS environments.</li>
+        <li>Installed, configured, and maintained backup systems, ensuring compliance with client retention policies.</li>
+        <li>Led DR projects, conducted recovery testing, and developed reports to monitor protection status.</li>
+        <li>Documented systems, managed change requests, and provided after-hours support as required.</li>
+  </ul>
+},
+{
     role:"Digitization assistant",
     dateRange:"08.2023 - Now",
     company:"TIMG Pty Ltd.",
