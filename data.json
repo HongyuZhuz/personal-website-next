@@ -453,1771 +453,228 @@
       }
     }
   ],
-  "topEditPhotos": {
-    "data": {
-      "id": 1,
-      "attributes": {
-        "createdAt": "2024-10-02T00:59:56.523Z",
-        "updatedAt": "2024-12-23T00:23:27.410Z",
-        "publishedAt": "2024-10-02T01:00:00.910Z",
-        "photos": {
-          "data": [
-            {
-              "id": 72,
-              "attributes": {
-                "name": "583833EE-21B0-497F-9786-FE56939F874D.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1600,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4.jpg",
-                    "hash": "large_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4",
-                    "mime": "image/jpeg",
-                    "name": "large_583833EE-21B0-497F-9786-FE56939F874D.jpg",
-                    "path": null,
-                    "size": 133.17,
-                    "width": 800,
-                    "height": 1000,
-                    "sizeInBytes": 133171
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4.jpg",
-                    "hash": "small_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4",
-                    "mime": "image/jpeg",
-                    "name": "small_583833EE-21B0-497F-9786-FE56939F874D.jpg",
-                    "path": null,
-                    "size": 39.43,
-                    "width": 400,
-                    "height": 500,
-                    "sizeInBytes": 39430
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4.jpg",
-                    "hash": "medium_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4",
-                    "mime": "image/jpeg",
-                    "name": "medium_583833EE-21B0-497F-9786-FE56939F874D.jpg",
-                    "path": null,
-                    "size": 80.88,
-                    "width": 600,
-                    "height": 750,
-                    "sizeInBytes": 80882
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4.jpg",
-                    "hash": "thumbnail_583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_583833EE-21B0-497F-9786-FE56939F874D.jpg",
-                    "path": null,
-                    "size": 5.31,
-                    "width": 125,
-                    "height": 156,
-                    "sizeInBytes": 5307
-                  }
-                },
-                "hash": "583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 287.74,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/583833_EE_21_B0_497_F_9786_FE_56939_F874_D_d5c67ab6c4.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:22:42.255Z",
-                "updatedAt": "2024-12-23T00:22:42.255Z"
-              }
+  "topEditPhotos": [
+    {
+      "id": 6,
+      "documentId": "s4tq8jyu6og2ox4omyto49ii",
+      "createdAt": "2025-03-24T05:21:02.449Z",
+      "updatedAt": "2025-03-24T05:21:02.449Z",
+      "publishedAt": "2025-03-24T05:21:02.478Z",
+      "topic": "test",
+      "photo": [
+        {
+          "id": 19,
+          "documentId": "aw7coqenmgfxdkjv9bfh9w3i",
+          "name": "DSC05910.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 6336,
+          "height": 9504,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_DSC_05910_ea18ad5976.jpg",
+              "hash": "large_DSC_05910_ea18ad5976",
+              "mime": "image/jpeg",
+              "name": "large_DSC05910.jpg",
+              "path": null,
+              "size": 125.82,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 125817
             },
-            {
-              "id": 73,
-              "attributes": {
-                "name": "DSC04804.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1920,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_04804_a29d2d66b8.jpg",
-                    "hash": "large_DSC_04804_a29d2d66b8",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC04804.jpg",
-                    "path": null,
-                    "size": 139.49,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 139490
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_04804_a29d2d66b8.jpg",
-                    "hash": "small_DSC_04804_a29d2d66b8",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC04804.jpg",
-                    "path": null,
-                    "size": 46.64,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 46636
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_04804_a29d2d66b8.jpg",
-                    "hash": "medium_DSC_04804_a29d2d66b8",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC04804.jpg",
-                    "path": null,
-                    "size": 89.04,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 89043
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_04804_a29d2d66b8.jpg",
-                    "hash": "thumbnail_DSC_04804_a29d2d66b8",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC04804.jpg",
-                    "path": null,
-                    "size": 6.42,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 6422
-                  }
-                },
-                "hash": "DSC_04804_a29d2d66b8",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 387.13,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_04804_a29d2d66b8.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:22:42.626Z",
-                "updatedAt": "2024-12-23T00:22:42.626Z"
-              }
+            "small": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_DSC_05910_ea18ad5976.jpg",
+              "hash": "small_DSC_05910_ea18ad5976",
+              "mime": "image/jpeg",
+              "name": "small_DSC05910.jpg",
+              "path": null,
+              "size": 38.21,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 38206
             },
-            {
-              "id": 68,
-              "attributes": {
-                "name": "DSC04940.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1920,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_04940_2427cca3a2.jpg",
-                    "hash": "large_DSC_04940_2427cca3a2",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC04940.jpg",
-                    "path": null,
-                    "size": 99.88,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 99884
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_04940_2427cca3a2.jpg",
-                    "hash": "small_DSC_04940_2427cca3a2",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC04940.jpg",
-                    "path": null,
-                    "size": 33,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 33000
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_04940_2427cca3a2.jpg",
-                    "hash": "medium_DSC_04940_2427cca3a2",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC04940.jpg",
-                    "path": null,
-                    "size": 62.58,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 62575
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_04940_2427cca3a2.jpg",
-                    "hash": "thumbnail_DSC_04940_2427cca3a2",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC04940.jpg",
-                    "path": null,
-                    "size": 5.14,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 5136
-                  }
-                },
-                "hash": "DSC_04940_2427cca3a2",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 306.37,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_04940_2427cca3a2.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:05:10.460Z",
-                "updatedAt": "2024-12-23T00:05:10.460Z"
-              }
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_DSC_05910_ea18ad5976.jpg",
+              "hash": "medium_DSC_05910_ea18ad5976",
+              "mime": "image/jpeg",
+              "name": "medium_DSC05910.jpg",
+              "path": null,
+              "size": 77.09,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 77093
             },
-            {
-              "id": 69,
-              "attributes": {
-                "name": "DSC04979.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1920,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_04979_055de0ad0b.jpg",
-                    "hash": "large_DSC_04979_055de0ad0b",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC04979.jpg",
-                    "path": null,
-                    "size": 110.97,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 110974
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_04979_055de0ad0b.jpg",
-                    "hash": "small_DSC_04979_055de0ad0b",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC04979.jpg",
-                    "path": null,
-                    "size": 38.11,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 38106
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_04979_055de0ad0b.jpg",
-                    "hash": "medium_DSC_04979_055de0ad0b",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC04979.jpg",
-                    "path": null,
-                    "size": 71.48,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 71479
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_04979_055de0ad0b.jpg",
-                    "hash": "thumbnail_DSC_04979_055de0ad0b",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC04979.jpg",
-                    "path": null,
-                    "size": 6.07,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 6070
-                  }
-                },
-                "hash": "DSC_04979_055de0ad0b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 317.35,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_04979_055de0ad0b.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:05:11.057Z",
-                "updatedAt": "2024-12-23T00:05:11.057Z"
-              }
-            },
-            {
-              "id": 70,
-              "attributes": {
-                "name": "DSC04997.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1920,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_04997_414783eaa3.jpg",
-                    "hash": "large_DSC_04997_414783eaa3",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC04997.jpg",
-                    "path": null,
-                    "size": 119.29,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 119290
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_04997_414783eaa3.jpg",
-                    "hash": "small_DSC_04997_414783eaa3",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC04997.jpg",
-                    "path": null,
-                    "size": 37.62,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 37623
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_04997_414783eaa3.jpg",
-                    "hash": "medium_DSC_04997_414783eaa3",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC04997.jpg",
-                    "path": null,
-                    "size": 73.71,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 73708
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_04997_414783eaa3.jpg",
-                    "hash": "thumbnail_DSC_04997_414783eaa3",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC04997.jpg",
-                    "path": null,
-                    "size": 5.44,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 5437
-                  }
-                },
-                "hash": "DSC_04997_414783eaa3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 363.78,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_04997_414783eaa3.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:05:11.214Z",
-                "updatedAt": "2024-12-23T00:05:11.214Z"
-              }
-            },
-            {
-              "id": 71,
-              "attributes": {
-                "name": "DSC04819.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1280,
-                "height": 1920,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_04819_4f336c6255.jpg",
-                    "hash": "large_DSC_04819_4f336c6255",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC04819.jpg",
-                    "path": null,
-                    "size": 210.18,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 210184
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_04819_4f336c6255.jpg",
-                    "hash": "small_DSC_04819_4f336c6255",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC04819.jpg",
-                    "path": null,
-                    "size": 61.67,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 61669
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_04819_4f336c6255.jpg",
-                    "hash": "medium_DSC_04819_4f336c6255",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC04819.jpg",
-                    "path": null,
-                    "size": 127.3,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 127303
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_04819_4f336c6255.jpg",
-                    "hash": "thumbnail_DSC_04819_4f336c6255",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC04819.jpg",
-                    "path": null,
-                    "size": 7.7,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 7697
-                  }
-                },
-                "hash": "DSC_04819_4f336c6255",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 624.89,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_04819_4f336c6255.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-12-23T00:05:11.330Z",
-                "updatedAt": "2024-12-23T00:05:11.330Z"
-              }
-            },
-            {
-              "id": 62,
-              "attributes": {
-                "name": "DSC02065-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02065_fa5604d919.jpg",
-                    "hash": "large_DSC_02065_fa5604d919",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02065-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 144.04,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 144035
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02065_fa5604d919.jpg",
-                    "hash": "small_DSC_02065_fa5604d919",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02065-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 39.08,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 39083
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02065_fa5604d919.jpg",
-                    "hash": "medium_DSC_02065_fa5604d919",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02065-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 84.81,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 84807
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02065_fa5604d919.jpg",
-                    "hash": "thumbnail_DSC_02065_fa5604d919",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02065-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 4.48,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 4481
-                  }
-                },
-                "hash": "DSC_02065_fa5604d919",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 7212.9,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02065_fa5604d919.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T13:37:08.777Z",
-                "updatedAt": "2024-10-02T13:37:08.777Z"
-              }
-            },
-            {
-              "id": 63,
-              "attributes": {
-                "name": "DJI_0600-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 3438,
-                "height": 5161,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DJI_0600_1c5d14474e.jpg",
-                    "hash": "large_DJI_0600_1c5d14474e",
-                    "mime": "image/jpeg",
-                    "name": "large_DJI_0600-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 311.55,
-                    "width": 666,
-                    "height": 1000,
-                    "sizeInBytes": 311545
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DJI_0600_1c5d14474e.jpg",
-                    "hash": "small_DJI_0600_1c5d14474e",
-                    "mime": "image/jpeg",
-                    "name": "small_DJI_0600-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 69.67,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 69674
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DJI_0600_1c5d14474e.jpg",
-                    "hash": "medium_DJI_0600_1c5d14474e",
-                    "mime": "image/jpeg",
-                    "name": "medium_DJI_0600-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 169.02,
-                    "width": 499,
-                    "height": 750,
-                    "sizeInBytes": 169021
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DJI_0600_1c5d14474e.jpg",
-                    "hash": "thumbnail_DJI_0600_1c5d14474e",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DJI_0600-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 5.81,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 5806
-                  }
-                },
-                "hash": "DJI_0600_1c5d14474e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 6980.34,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DJI_0600_1c5d14474e.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T13:38:57.727Z",
-                "updatedAt": "2024-10-02T13:38:57.727Z"
-              }
-            },
-            {
-              "id": 64,
-              "attributes": {
-                "name": "DSC02113-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 4986,
-                "height": 4986,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02113_cf60603d5e.jpg",
-                    "hash": "large_DSC_02113_cf60603d5e",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02113-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 246.2,
-                    "width": 1000,
-                    "height": 1000,
-                    "sizeInBytes": 246202
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02113_cf60603d5e.jpg",
-                    "hash": "small_DSC_02113_cf60603d5e",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02113-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 65.93,
-                    "width": 500,
-                    "height": 500,
-                    "sizeInBytes": 65929
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02113_cf60603d5e.jpg",
-                    "hash": "medium_DSC_02113_cf60603d5e",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02113-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 144.4,
-                    "width": 750,
-                    "height": 750,
-                    "sizeInBytes": 144403
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02113_cf60603d5e.jpg",
-                    "hash": "thumbnail_DSC_02113_cf60603d5e",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02113-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 6.97,
-                    "width": 156,
-                    "height": 156,
-                    "sizeInBytes": 6965
-                  }
-                },
-                "hash": "DSC_02113_cf60603d5e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 4115.13,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02113_cf60603d5e.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T13:39:05.773Z",
-                "updatedAt": "2024-10-02T13:39:05.773Z"
-              }
-            },
-            {
-              "id": 65,
-              "attributes": {
-                "name": "DSC00883-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_00883_3dbf52fec0.jpg",
-                    "hash": "large_DSC_00883_3dbf52fec0",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC00883-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 115.8,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 115801
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_00883_3dbf52fec0.jpg",
-                    "hash": "small_DSC_00883_3dbf52fec0",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC00883-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 41.2,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 41202
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_00883_3dbf52fec0.jpg",
-                    "hash": "medium_DSC_00883_3dbf52fec0",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC00883-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 76.08,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 76078
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_00883_3dbf52fec0.jpg",
-                    "hash": "thumbnail_DSC_00883_3dbf52fec0",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC00883-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 6.21,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 6213
-                  }
-                },
-                "hash": "DSC_00883_3dbf52fec0",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 5321.63,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_00883_3dbf52fec0.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T13:39:10.413Z",
-                "updatedAt": "2024-10-02T13:39:10.413Z"
-              }
-            },
-            {
-              "id": 66,
-              "attributes": {
-                "name": "DSC02161-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02161_2ea89821f3.jpg",
-                    "hash": "large_DSC_02161_2ea89821f3",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02161-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 69.44,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 69435
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02161_2ea89821f3.jpg",
-                    "hash": "small_DSC_02161_2ea89821f3",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02161-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 26.99,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 26991
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02161_2ea89821f3.jpg",
-                    "hash": "medium_DSC_02161_2ea89821f3",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02161-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 47.18,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 47177
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02161_2ea89821f3.jpg",
-                    "hash": "thumbnail_DSC_02161_2ea89821f3",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02161-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 4.68,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 4678
-                  }
-                },
-                "hash": "DSC_02161_2ea89821f3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 2284.7,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02161_2ea89821f3.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T13:39:11.607Z",
-                "updatedAt": "2024-10-02T13:39:11.607Z"
-              }
-            },
-            {
-              "id": 48,
-              "attributes": {
-                "name": "DSC01092-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 3440,
-                "height": 6116,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01092_29b9d9b58b.jpg",
-                    "hash": "large_DSC_01092_29b9d9b58b",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01092-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 56.06,
-                    "width": 562,
-                    "height": 1000,
-                    "sizeInBytes": 56059
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01092_29b9d9b58b.jpg",
-                    "hash": "small_DSC_01092_29b9d9b58b",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01092-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 19.16,
-                    "width": 281,
-                    "height": 500,
-                    "sizeInBytes": 19158
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01092_29b9d9b58b.jpg",
-                    "hash": "medium_DSC_01092_29b9d9b58b",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01092-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 36.14,
-                    "width": 422,
-                    "height": 750,
-                    "sizeInBytes": 36142
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01092_29b9d9b58b.jpg",
-                    "hash": "thumbnail_DSC_01092_29b9d9b58b",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01092-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 3.07,
-                    "width": 88,
-                    "height": 156,
-                    "sizeInBytes": 3066
-                  }
-                },
-                "hash": "DSC_01092_29b9d9b58b",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 916.71,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01092_29b9d9b58b.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:58:11.279Z",
-                "updatedAt": "2024-10-02T00:58:11.279Z"
-              }
-            },
-            {
-              "id": 49,
-              "attributes": {
-                "name": "DSC02762-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 8142,
-                "height": 5428,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02762_c4d8916f3d.jpg",
-                    "hash": "large_DSC_02762_c4d8916f3d",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02762-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 58.83,
-                    "width": 1000,
-                    "height": 667,
-                    "sizeInBytes": 58825
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02762_c4d8916f3d.jpg",
-                    "hash": "small_DSC_02762_c4d8916f3d",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02762-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 21.3,
-                    "width": 500,
-                    "height": 333,
-                    "sizeInBytes": 21298
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02762_c4d8916f3d.jpg",
-                    "hash": "medium_DSC_02762_c4d8916f3d",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02762-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 38.46,
-                    "width": 750,
-                    "height": 500,
-                    "sizeInBytes": 38456
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02762_c4d8916f3d.jpg",
-                    "hash": "thumbnail_DSC_02762_c4d8916f3d",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02762-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 7.08,
-                    "width": 234,
-                    "height": 156,
-                    "sizeInBytes": 7083
-                  }
-                },
-                "hash": "DSC_02762_c4d8916f3d",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1554.54,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02762_c4d8916f3d.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:58:28.989Z",
-                "updatedAt": "2024-10-02T00:58:28.989Z"
-              }
-            },
-            {
-              "id": 50,
-              "attributes": {
-                "name": "DSC03370-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_03370_b8ebae4d4e.jpg",
-                    "hash": "large_DSC_03370_b8ebae4d4e",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC03370-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 96.89,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 96894
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_03370_b8ebae4d4e.jpg",
-                    "hash": "small_DSC_03370_b8ebae4d4e",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC03370-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 36.28,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 36283
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_03370_b8ebae4d4e.jpg",
-                    "hash": "medium_DSC_03370_b8ebae4d4e",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC03370-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 64.86,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 64860
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_03370_b8ebae4d4e.jpg",
-                    "hash": "thumbnail_DSC_03370_b8ebae4d4e",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC03370-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 5.82,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 5822
-                  }
-                },
-                "hash": "DSC_03370_b8ebae4d4e",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 4429.69,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_03370_b8ebae4d4e.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:58:48.185Z",
-                "updatedAt": "2024-10-02T00:58:48.185Z"
-              }
-            },
-            {
-              "id": 51,
-              "attributes": {
-                "name": "DSC03373-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 5973,
-                "height": 8960,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_03373_5451a8f2d1.jpg",
-                    "hash": "large_DSC_03373_5451a8f2d1",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC03373-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 76.62,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 76622
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_03373_5451a8f2d1.jpg",
-                    "hash": "small_DSC_03373_5451a8f2d1",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC03373-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 29.19,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 29185
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_03373_5451a8f2d1.jpg",
-                    "hash": "medium_DSC_03373_5451a8f2d1",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC03373-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 51.21,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 51207
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_03373_5451a8f2d1.jpg",
-                    "hash": "thumbnail_DSC_03373_5451a8f2d1",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC03373-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 5.32,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 5319
-                  }
-                },
-                "hash": "DSC_03373_5451a8f2d1",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 4361.76,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_03373_5451a8f2d1.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:58:55.577Z",
-                "updatedAt": "2024-10-02T00:58:55.577Z"
-              }
-            },
-            {
-              "id": 52,
-              "attributes": {
-                "name": "DSC02793-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 9504,
-                "height": 6336,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02793_0a65414509.jpg",
-                    "hash": "large_DSC_02793_0a65414509",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02793-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 104.25,
-                    "width": 1000,
-                    "height": 667,
-                    "sizeInBytes": 104252
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02793_0a65414509.jpg",
-                    "hash": "small_DSC_02793_0a65414509",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02793-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 34.49,
-                    "width": 500,
-                    "height": 333,
-                    "sizeInBytes": 34487
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02793_0a65414509.jpg",
-                    "hash": "medium_DSC_02793_0a65414509",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02793-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 66.77,
-                    "width": 750,
-                    "height": 500,
-                    "sizeInBytes": 66772
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02793_0a65414509.jpg",
-                    "hash": "thumbnail_DSC_02793_0a65414509",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02793-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 9.96,
-                    "width": 234,
-                    "height": 156,
-                    "sizeInBytes": 9963
-                  }
-                },
-                "hash": "DSC_02793_0a65414509",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 3316.43,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02793_0a65414509.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:00.730Z",
-                "updatedAt": "2024-10-02T00:59:00.730Z"
-              }
-            },
-            {
-              "id": 53,
-              "attributes": {
-                "name": "DSC02619-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02619_67e4f746fe.jpg",
-                    "hash": "large_DSC_02619_67e4f746fe",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02619-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 92.03,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 92033
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02619_67e4f746fe.jpg",
-                    "hash": "small_DSC_02619_67e4f746fe",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02619-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 31.35,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 31352
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02619_67e4f746fe.jpg",
-                    "hash": "medium_DSC_02619_67e4f746fe",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02619-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 59.24,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 59235
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02619_67e4f746fe.jpg",
-                    "hash": "thumbnail_DSC_02619_67e4f746fe",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02619-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 4.67,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 4672
-                  }
-                },
-                "hash": "DSC_02619_67e4f746fe",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 3077.25,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02619_67e4f746fe.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:00.757Z",
-                "updatedAt": "2024-10-02T00:59:00.757Z"
-              }
-            },
-            {
-              "id": 54,
-              "attributes": {
-                "name": "DSC00723-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 7158,
-                "height": 4026,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_00723_29ebe5eba0.jpg",
-                    "hash": "large_DSC_00723_29ebe5eba0",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC00723-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 49.68,
-                    "width": 1000,
-                    "height": 562,
-                    "sizeInBytes": 49681
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_00723_29ebe5eba0.jpg",
-                    "hash": "small_DSC_00723_29ebe5eba0",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC00723-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 17.55,
-                    "width": 500,
-                    "height": 281,
-                    "sizeInBytes": 17546
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_00723_29ebe5eba0.jpg",
-                    "hash": "medium_DSC_00723_29ebe5eba0",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC00723-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 31.61,
-                    "width": 750,
-                    "height": 422,
-                    "sizeInBytes": 31614
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_00723_29ebe5eba0.jpg",
-                    "hash": "thumbnail_DSC_00723_29ebe5eba0",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC00723-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 6,
-                    "width": 245,
-                    "height": 138,
-                    "sizeInBytes": 5995
-                  }
-                },
-                "hash": "DSC_00723_29ebe5eba0",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1053.99,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_00723_29ebe5eba0.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:07.564Z",
-                "updatedAt": "2024-10-02T00:59:07.564Z"
-              }
-            },
-            {
-              "id": 55,
-              "attributes": {
-                "name": "DSC02298-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_02298_5c8c333f1f.jpg",
-                    "hash": "large_DSC_02298_5c8c333f1f",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC02298-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 84.12,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 84118
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_02298_5c8c333f1f.jpg",
-                    "hash": "small_DSC_02298_5c8c333f1f",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC02298-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 26.09,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 26091
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_02298_5c8c333f1f.jpg",
-                    "hash": "medium_DSC_02298_5c8c333f1f",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC02298-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 51.57,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 51573
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_02298_5c8c333f1f.jpg",
-                    "hash": "thumbnail_DSC_02298_5c8c333f1f",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC02298-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 3.77,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 3771
-                  }
-                },
-                "hash": "DSC_02298_5c8c333f1f",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 3919.37,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_02298_5c8c333f1f.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:10.272Z",
-                "updatedAt": "2024-10-02T00:59:10.272Z"
-              }
-            },
-            {
-              "id": 56,
-              "attributes": {
-                "name": "DSC01970-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 9504,
-                "height": 6336,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01970_eb3258345d.jpg",
-                    "hash": "large_DSC_01970_eb3258345d",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01970-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 89.83,
-                    "width": 1000,
-                    "height": 667,
-                    "sizeInBytes": 89833
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01970_eb3258345d.jpg",
-                    "hash": "small_DSC_01970_eb3258345d",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01970-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 30.71,
-                    "width": 500,
-                    "height": 333,
-                    "sizeInBytes": 30709
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01970_eb3258345d.jpg",
-                    "hash": "medium_DSC_01970_eb3258345d",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01970-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 57.97,
-                    "width": 750,
-                    "height": 500,
-                    "sizeInBytes": 57974
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01970_eb3258345d.jpg",
-                    "hash": "thumbnail_DSC_01970_eb3258345d",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01970-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 9.03,
-                    "width": 234,
-                    "height": 156,
-                    "sizeInBytes": 9032
-                  }
-                },
-                "hash": "DSC_01970_eb3258345d",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 2688.41,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01970_eb3258345d.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:13.522Z",
-                "updatedAt": "2024-10-02T00:59:13.522Z"
-              }
-            },
-            {
-              "id": 57,
-              "attributes": {
-                "name": "DSC01712-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01712_a6479fb1a9.jpg",
-                    "hash": "large_DSC_01712_a6479fb1a9",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01712-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 63.25,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 63246
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01712_a6479fb1a9.jpg",
-                    "hash": "small_DSC_01712_a6479fb1a9",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01712-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 23.54,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 23541
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01712_a6479fb1a9.jpg",
-                    "hash": "medium_DSC_01712_a6479fb1a9",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01712-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 42.14,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 42143
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01712_a6479fb1a9.jpg",
-                    "hash": "thumbnail_DSC_01712_a6479fb1a9",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01712-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 4.14,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 4135
-                  }
-                },
-                "hash": "DSC_01712_a6479fb1a9",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1663.63,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01712_a6479fb1a9.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:16.877Z",
-                "updatedAt": "2024-10-02T00:59:16.877Z"
-              }
-            },
-            {
-              "id": 58,
-              "attributes": {
-                "name": "DSC01621-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6204,
-                "height": 9306,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01621_db2eafddf1.jpg",
-                    "hash": "large_DSC_01621_db2eafddf1",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01621-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 31.43,
-                    "width": 666,
-                    "height": 1000,
-                    "sizeInBytes": 31426
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01621_db2eafddf1.jpg",
-                    "hash": "small_DSC_01621_db2eafddf1",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01621-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 10.74,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 10737
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01621_db2eafddf1.jpg",
-                    "hash": "medium_DSC_01621_db2eafddf1",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01621-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 19.91,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 19909
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01621_db2eafddf1.jpg",
-                    "hash": "thumbnail_DSC_01621_db2eafddf1",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01621-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 2.07,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 2067
-                  }
-                },
-                "hash": "DSC_01621_db2eafddf1",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1228.8,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01621_db2eafddf1.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:21.085Z",
-                "updatedAt": "2024-10-02T00:59:21.085Z"
-              }
-            },
-            {
-              "id": 59,
-              "attributes": {
-                "name": "DSC01609-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 9504,
-                "height": 6336,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01609_3f52f49229.jpg",
-                    "hash": "large_DSC_01609_3f52f49229",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01609-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 129.95,
-                    "width": 1000,
-                    "height": 667,
-                    "sizeInBytes": 129950
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01609_3f52f49229.jpg",
-                    "hash": "small_DSC_01609_3f52f49229",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01609-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 35.16,
-                    "width": 500,
-                    "height": 333,
-                    "sizeInBytes": 35157
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01609_3f52f49229.jpg",
-                    "hash": "medium_DSC_01609_3f52f49229",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01609-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 76.2,
-                    "width": 750,
-                    "height": 500,
-                    "sizeInBytes": 76197
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01609_3f52f49229.jpg",
-                    "hash": "thumbnail_DSC_01609_3f52f49229",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01609-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 8.37,
-                    "width": 234,
-                    "height": 156,
-                    "sizeInBytes": 8368
-                  }
-                },
-                "hash": "DSC_01609_3f52f49229",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 7578.33,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01609_3f52f49229.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:31.937Z",
-                "updatedAt": "2024-10-02T00:59:31.937Z"
-              }
-            },
-            {
-              "id": 60,
-              "attributes": {
-                "name": "DSC01323-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 9173,
-                "height": 6115,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01323_8d19b04f14.jpg",
-                    "hash": "large_DSC_01323_8d19b04f14",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01323-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 33.89,
-                    "width": 1000,
-                    "height": 667,
-                    "sizeInBytes": 33894
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01323_8d19b04f14.jpg",
-                    "hash": "small_DSC_01323_8d19b04f14",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01323-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 12.09,
-                    "width": 500,
-                    "height": 333,
-                    "sizeInBytes": 12085
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01323_8d19b04f14.jpg",
-                    "hash": "medium_DSC_01323_8d19b04f14",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01323-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 22.02,
-                    "width": 750,
-                    "height": 500,
-                    "sizeInBytes": 22015
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01323_8d19b04f14.jpg",
-                    "hash": "thumbnail_DSC_01323_8d19b04f14",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01323-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 4.17,
-                    "width": 234,
-                    "height": 156,
-                    "sizeInBytes": 4172
-                  }
-                },
-                "hash": "DSC_01323_8d19b04f14",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1903.02,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01323_8d19b04f14.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:38.492Z",
-                "updatedAt": "2024-10-02T00:59:38.492Z"
-              }
-            },
-            {
-              "id": 61,
-              "attributes": {
-                "name": "DSC01381-已增强-降噪.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 6336,
-                "height": 9504,
-                "formats": {
-                  "large": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_DSC_01381_4b7c994ce3.jpg",
-                    "hash": "large_DSC_01381_4b7c994ce3",
-                    "mime": "image/jpeg",
-                    "name": "large_DSC01381-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 33.39,
-                    "width": 667,
-                    "height": 1000,
-                    "sizeInBytes": 33389
-                  },
-                  "small": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_DSC_01381_4b7c994ce3.jpg",
-                    "hash": "small_DSC_01381_4b7c994ce3",
-                    "mime": "image/jpeg",
-                    "name": "small_DSC01381-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 11.99,
-                    "width": 333,
-                    "height": 500,
-                    "sizeInBytes": 11988
-                  },
-                  "medium": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_DSC_01381_4b7c994ce3.jpg",
-                    "hash": "medium_DSC_01381_4b7c994ce3",
-                    "mime": "image/jpeg",
-                    "name": "medium_DSC01381-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 21.96,
-                    "width": 500,
-                    "height": 750,
-                    "sizeInBytes": 21960
-                  },
-                  "thumbnail": {
-                    "ext": ".jpg",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_DSC_01381_4b7c994ce3.jpg",
-                    "hash": "thumbnail_DSC_01381_4b7c994ce3",
-                    "mime": "image/jpeg",
-                    "name": "thumbnail_DSC01381-已增强-降噪.jpg",
-                    "path": null,
-                    "size": 2.36,
-                    "width": 104,
-                    "height": 156,
-                    "sizeInBytes": 2360
-                  }
-                },
-                "hash": "DSC_01381_4b7c994ce3",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 1882.44,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/DSC_01381_4b7c994ce3.jpg",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-10-02T00:59:38.966Z",
-                "updatedAt": "2024-10-02T00:59:38.966Z"
-              }
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_DSC_05910_ea18ad5976.jpg",
+              "hash": "thumbnail_DSC_05910_ea18ad5976",
+              "mime": "image/jpeg",
+              "name": "thumbnail_DSC05910.jpg",
+              "path": null,
+              "size": 4.99,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 4990
             }
-          ]
+          },
+          "hash": "DSC_05910_ea18ad5976",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 13604.38,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/DSC_05910_ea18ad5976.jpg",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T05:18:23.267Z",
+          "updatedAt": "2025-03-24T05:18:23.267Z",
+          "publishedAt": "2025-03-24T05:18:23.268Z"
+        },
+        {
+          "id": 18,
+          "documentId": "xle2izt5xxyavtz363mteqc6",
+          "name": "DSC05839.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 9504,
+          "height": 6336,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_DSC_05839_782ae15bca.jpg",
+              "hash": "large_DSC_05839_782ae15bca",
+              "mime": "image/jpeg",
+              "name": "large_DSC05839.jpg",
+              "path": null,
+              "size": 75.33,
+              "width": 1000,
+              "height": 667,
+              "sizeInBytes": 75327
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_DSC_05839_782ae15bca.jpg",
+              "hash": "small_DSC_05839_782ae15bca",
+              "mime": "image/jpeg",
+              "name": "small_DSC05839.jpg",
+              "path": null,
+              "size": 24.25,
+              "width": 500,
+              "height": 333,
+              "sizeInBytes": 24245
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_DSC_05839_782ae15bca.jpg",
+              "hash": "medium_DSC_05839_782ae15bca",
+              "mime": "image/jpeg",
+              "name": "medium_DSC05839.jpg",
+              "path": null,
+              "size": 47.03,
+              "width": 750,
+              "height": 500,
+              "sizeInBytes": 47029
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_DSC_05839_782ae15bca.jpg",
+              "hash": "thumbnail_DSC_05839_782ae15bca",
+              "mime": "image/jpeg",
+              "name": "thumbnail_DSC05839.jpg",
+              "path": null,
+              "size": 7.3,
+              "width": 234,
+              "height": 156,
+              "sizeInBytes": 7295
+            }
+          },
+          "hash": "DSC_05839_782ae15bca",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 10488.86,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/DSC_05839_782ae15bca.jpg",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T05:18:21.936Z",
+          "updatedAt": "2025-03-24T05:18:21.936Z",
+          "publishedAt": "2025-03-24T05:18:21.937Z"
+        },
+        {
+          "id": 17,
+          "documentId": "jr3izr924mupeabpqtfztnle",
+          "name": "DSC05934.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 6336,
+          "height": 9504,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_DSC_05934_a7ffb26eef.jpg",
+              "hash": "large_DSC_05934_a7ffb26eef",
+              "mime": "image/jpeg",
+              "name": "large_DSC05934.jpg",
+              "path": null,
+              "size": 106.26,
+              "width": 667,
+              "height": 1000,
+              "sizeInBytes": 106257
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_DSC_05934_a7ffb26eef.jpg",
+              "hash": "small_DSC_05934_a7ffb26eef",
+              "mime": "image/jpeg",
+              "name": "small_DSC05934.jpg",
+              "path": null,
+              "size": 34.85,
+              "width": 333,
+              "height": 500,
+              "sizeInBytes": 34854
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_DSC_05934_a7ffb26eef.jpg",
+              "hash": "medium_DSC_05934_a7ffb26eef",
+              "mime": "image/jpeg",
+              "name": "medium_DSC05934.jpg",
+              "path": null,
+              "size": 67.32,
+              "width": 500,
+              "height": 750,
+              "sizeInBytes": 67316
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_DSC_05934_a7ffb26eef.jpg",
+              "hash": "thumbnail_DSC_05934_a7ffb26eef",
+              "mime": "image/jpeg",
+              "name": "thumbnail_DSC05934.jpg",
+              "path": null,
+              "size": 5.11,
+              "width": 104,
+              "height": 156,
+              "sizeInBytes": 5105
+            }
+          },
+          "hash": "DSC_05934_a7ffb26eef",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 14505.61,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/DSC_05934_a7ffb26eef.jpg",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T05:18:20.695Z",
+          "updatedAt": "2025-03-24T05:18:20.695Z",
+          "publishedAt": "2025-03-24T05:18:20.697Z"
         }
-      }
-    },
-    "meta": {}
-  },
+      ]
+    }
+  ],
   "graphicDesignPortfolio": {
     "data": {
       "id": 1,

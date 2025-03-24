@@ -6,13 +6,21 @@ const MasonryGallery = dynamic(() => import('./masonry'), { ssr: false });
 
 export default async function Page() {
     const topEditPhotosData = await getTopEditPhotos();
+    const photos = topEditPhotosData[0].photo.map(
+      (photo:{formats:{large:{url:string,width:string,height:string},},id:string}
+      ) => ({
+      src: photo.formats.large.url,
+      width: photo.formats.large.width,
+      height: photo.formats.large.height,
+      key: photo.id
+    }));
     
-    const photos = topEditPhotosData.data.attributes.photos.data.map((photo: { attributes: { url: string; width: number; height: number; }; id: string | number; }) => ({
+    /*const photos = topEditPhotosData.data.attributes.photos.data.map((photo: { attributes: { url: string; width: number; height: number; }; id: string | number; }) => ({
       src: photo.attributes.url,
       width: photo.attributes.width,
       height: photo.attributes.height,
       key: photo.id
-    }));
+    }));*/
 
     return (
       <div className="min-h-screen bg-black">

@@ -86,14 +86,17 @@ export async function fetchResume() {
 
 export async function getTopEditPhotos() {
   try {
-    const response = await axios.get(`${apiUrl}/api/top-edit-photo?populate=*`,{
+    console.log("牛逼")
+    const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
-    const data = response.data
-    await writeDataToFile(data, 'topEditPhotos');
-    return data;
+    console.log("???")
+    console.log(response.data.data)
+    const photos = response.data.data
+    await writeDataToFile(photos, 'topEditPhotos');
+    return photos;
   } catch (error) {
     console.error('获取顶级编辑照片时出错:', error);
     return readDataFromFile('topEditPhotos');
