@@ -16,440 +16,356 @@
   ],
   "itProjectData": [
     {
-      "id": 1,
-      "attributes": {
-        "Name": "Expense Tracker Mobile App💸",
-        "createdAt": "2024-09-16T02:41:10.630Z",
-        "updatedAt": "2024-09-27T07:11:50.642Z",
-        "publishedAt": "2024-09-16T02:45:59.973Z",
-        "tags": [
-          "react native",
-          "SQLite",
-          "CSS"
-        ],
-        "URL": "https://github.com/HongyuZhuz/native-expo-practice",
-        "Description": [
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Developed a cross-platform mobile app using React Native and Node.js to track and categorize daily expenses, with secure",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "data storage handled through SQLite.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Implemented an expense overview feature, displaying weekly expenses with real-time editing functionality for each entry.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Designed a user-friendly interfa",
-                "type": "text"
-              }
-            ]
-          }
-        ],
-        "showcase": {
-          "data": [
-            {
-              "id": 45,
-              "attributes": {
-                "name": "Screenshot 2024-09-27 151118.png",
-                "alternativeText": null,
-                "caption": null,
-                "width": 788,
-                "height": 851,
-                "formats": {
-                  "small": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_Screenshot_2024_09_27_151118_b7dc286c1f.png",
-                    "hash": "small_Screenshot_2024_09_27_151118_b7dc286c1f",
-                    "mime": "image/png",
-                    "name": "small_Screenshot 2024-09-27 151118.png",
-                    "path": null,
-                    "size": 104.35,
-                    "width": 463,
-                    "height": 500,
-                    "sizeInBytes": 104346
-                  },
-                  "medium": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_Screenshot_2024_09_27_151118_b7dc286c1f.png",
-                    "hash": "medium_Screenshot_2024_09_27_151118_b7dc286c1f",
-                    "mime": "image/png",
-                    "name": "medium_Screenshot 2024-09-27 151118.png",
-                    "path": null,
-                    "size": 189.47,
-                    "width": 694,
-                    "height": 750,
-                    "sizeInBytes": 189468
-                  },
-                  "thumbnail": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_Screenshot_2024_09_27_151118_b7dc286c1f.png",
-                    "hash": "thumbnail_Screenshot_2024_09_27_151118_b7dc286c1f",
-                    "mime": "image/png",
-                    "name": "thumbnail_Screenshot 2024-09-27 151118.png",
-                    "path": null,
-                    "size": 19.13,
-                    "width": 144,
-                    "height": 156,
-                    "sizeInBytes": 19132
-                  }
-                },
-                "hash": "Screenshot_2024_09_27_151118_b7dc286c1f",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 39.31,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_09_27_151118_b7dc286c1f.png",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-09-27T05:11:50.766Z",
-                "updatedAt": "2024-09-27T05:11:50.766Z"
-              }
-            }
-          ]
-        },
-        "icon": {
-          "data": null
-        }
-      }
-    },
-    {
-      "id": 2,
-      "attributes": {
-        "Name": "Movie Review Website🎬",
-        "createdAt": "2024-09-27T05:03:18.658Z",
-        "updatedAt": "2024-09-27T12:27:12.562Z",
-        "publishedAt": "2024-09-27T05:05:29.491Z",
-        "tags": [
-          "Figma",
-          "Tailwind",
-          "Nextjs",
-          "Express.js",
-          "MongoDB",
-          "AWS"
-        ],
-        "URL": "https://movielistapp.hongyu-zhu.com/",
-        "Description": [
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Developed a full-stack MERN application (MongoDB, Express.js, React, Node.js), independently managing front-end,",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "back-end, and database layers.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Designed an intuitive user interface using Adobe Photoshop and Figma, focusing on clean, user-friendly layouts and enhancing",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "the overall user experience (UI/UX).",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Optimized back-end performance by mastering Express.js for efficient database operations and RESTful API integrations,",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "improving communication between front-end and back-end components.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "",
-                "type": "text"
-              }
-            ]
-          }
-        ],
-        "showcase": {
-          "data": [
-            {
-              "id": 44,
-              "attributes": {
-                "name": "Screenshot 2024-09-27 150037.webp",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1445,
-                "height": 846,
-                "formats": {
-                  "large": {
-                    "ext": ".webp",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_Screenshot_2024_09_27_150037_e54e61c9d7.webp",
-                    "hash": "large_Screenshot_2024_09_27_150037_e54e61c9d7",
-                    "mime": "image/webp",
-                    "name": "large_Screenshot 2024-09-27 150037.webp",
-                    "path": null,
-                    "size": 44.61,
-                    "width": 1000,
-                    "height": 585,
-                    "sizeInBytes": 44608
-                  },
-                  "small": {
-                    "ext": ".webp",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_Screenshot_2024_09_27_150037_e54e61c9d7.webp",
-                    "hash": "small_Screenshot_2024_09_27_150037_e54e61c9d7",
-                    "mime": "image/webp",
-                    "name": "small_Screenshot 2024-09-27 150037.webp",
-                    "path": null,
-                    "size": 17.96,
-                    "width": 500,
-                    "height": 293,
-                    "sizeInBytes": 17964
-                  },
-                  "medium": {
-                    "ext": ".webp",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_Screenshot_2024_09_27_150037_e54e61c9d7.webp",
-                    "hash": "medium_Screenshot_2024_09_27_150037_e54e61c9d7",
-                    "mime": "image/webp",
-                    "name": "medium_Screenshot 2024-09-27 150037.webp",
-                    "path": null,
-                    "size": 31.32,
-                    "width": 750,
-                    "height": 439,
-                    "sizeInBytes": 31316
-                  },
-                  "thumbnail": {
-                    "ext": ".webp",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_Screenshot_2024_09_27_150037_e54e61c9d7.webp",
-                    "hash": "thumbnail_Screenshot_2024_09_27_150037_e54e61c9d7",
-                    "mime": "image/webp",
-                    "name": "thumbnail_Screenshot 2024-09-27 150037.webp",
-                    "path": null,
-                    "size": 6.39,
-                    "width": 245,
-                    "height": 143,
-                    "sizeInBytes": 6386
-                  }
-                },
-                "hash": "Screenshot_2024_09_27_150037_e54e61c9d7",
-                "ext": ".webp",
-                "mime": "image/webp",
-                "size": 74.52,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_09_27_150037_e54e61c9d7.webp",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-09-27T05:02:07.694Z",
-                "updatedAt": "2024-09-27T05:02:07.694Z"
-              }
-            }
-          ]
-        },
-        "icon": {
-          "data": null
-        }
-      }
-    },
-    {
       "id": 3,
-      "attributes": {
-        "Name": "Personal Website😎",
-        "createdAt": "2024-09-27T05:33:55.493Z",
-        "updatedAt": "2024-09-27T12:27:20.200Z",
-        "publishedAt": "2024-09-27T05:33:57.198Z",
-        "tags": [
-          "Next.js",
-          "AWS",
-          "Headless CMS",
-          "Strapi"
-        ],
-        "URL": "https://www.hongyu-zhu.com/",
-        "Description": [
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Designed and developed a dynamic, fully responsive personal portfolio using React, TypeScript, and Tailwind CSS, providing",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "an engaging platform to showcase technical expertise and project accomplishments with seamless user experience across",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "devices.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Architected a cost-effective serverless infrastructure leveraging AWS services (S3, Lambda) to optimize content management",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "processes, improve scalability, and reduce operational costs.",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "• Implemented Strapi as a headless CMS, seamlessly integrated with AWS EC2 for hosting, ensuring scalable content",
-                "type": "text"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "text": "management and high-performance server operations.",
-                "type": "text"
-              }
-            ]
-          }
-        ],
-        "showcase": {
-          "data": [
+      "documentId": "dd3rh0dh16f8y3ty9uhyl2jx",
+      "Name": "Personal Website😎",
+      "tags": [
+        "Next.js",
+        "AWS",
+        "Headless CMS",
+        "Strapi"
+      ],
+      "Description": [
+        {
+          "type": "paragraph",
+          "children": [
             {
-              "id": 46,
-              "attributes": {
-                "name": "Screenshot 2024-09-27 153342.png",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1488,
-                "height": 877,
-                "formats": {
-                  "large": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/large_Screenshot_2024_09_27_153342_76146757d5.png",
-                    "hash": "large_Screenshot_2024_09_27_153342_76146757d5",
-                    "mime": "image/png",
-                    "name": "large_Screenshot 2024-09-27 153342.png",
-                    "path": null,
-                    "size": 833.72,
-                    "width": 1000,
-                    "height": 589,
-                    "sizeInBytes": 833720
-                  },
-                  "small": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/small_Screenshot_2024_09_27_153342_76146757d5.png",
-                    "hash": "small_Screenshot_2024_09_27_153342_76146757d5",
-                    "mime": "image/png",
-                    "name": "small_Screenshot 2024-09-27 153342.png",
-                    "path": null,
-                    "size": 242.33,
-                    "width": 500,
-                    "height": 295,
-                    "sizeInBytes": 242332
-                  },
-                  "medium": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/medium_Screenshot_2024_09_27_153342_76146757d5.png",
-                    "hash": "medium_Screenshot_2024_09_27_153342_76146757d5",
-                    "mime": "image/png",
-                    "name": "medium_Screenshot 2024-09-27 153342.png",
-                    "path": null,
-                    "size": 500,
-                    "width": 750,
-                    "height": 442,
-                    "sizeInBytes": 499997
-                  },
-                  "thumbnail": {
-                    "ext": ".png",
-                    "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/thumbnail_Screenshot_2024_09_27_153342_76146757d5.png",
-                    "hash": "thumbnail_Screenshot_2024_09_27_153342_76146757d5",
-                    "mime": "image/png",
-                    "name": "thumbnail_Screenshot 2024-09-27 153342.png",
-                    "path": null,
-                    "size": 67.59,
-                    "width": 245,
-                    "height": 144,
-                    "sizeInBytes": 67594
-                  }
-                },
-                "hash": "Screenshot_2024_09_27_153342_76146757d5",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 486.08,
-                "url": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Screenshot_2024_09_27_153342_76146757d5.png",
-                "previewUrl": null,
-                "provider": "aws-s3",
-                "provider_metadata": null,
-                "createdAt": "2024-09-27T05:33:47.463Z",
-                "updatedAt": "2024-09-27T05:33:47.463Z"
-              }
+              "text": "• Designed and developed a dynamic, fully responsive personal portfolio using React, TypeScript, and Tailwind CSS, providing an engaging platform to showcase technical expertise and project accomplishments with seamless user experience across devices.",
+              "type": "text"
             }
           ]
         },
-        "icon": {
-          "data": null
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Architected a cost-effective serverless infrastructure leveraging AWS services (S3, Lambda) to optimize content management processes, improve scalability, and reduce operational costs.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Implemented Strapi as a headless CMS, seamlessly integrated with AWS EC2 for hosting, ensuring scalable content management and high-performance server operations.",
+              "type": "text"
+            }
+          ]
         }
-      }
+      ],
+      "url": "https://www.hongyu-zhu.com/",
+      "icon": null,
+      "createdAt": "2025-03-24T08:06:51.189Z",
+      "updatedAt": "2025-03-24T08:11:11.373Z",
+      "publishedAt": "2025-03-24T08:11:11.410Z",
+      "showcase": [
+        {
+          "id": 21,
+          "documentId": "njzek7x3aq9opadhhhsf5gtx",
+          "name": "Screenshot 2025-03-24 190536.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 3794,
+          "height": 1618,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_Screenshot_2025_03_24_190536_10d8fb5978.png",
+              "hash": "large_Screenshot_2025_03_24_190536_10d8fb5978",
+              "mime": "image/png",
+              "name": "large_Screenshot 2025-03-24 190536.png",
+              "path": null,
+              "size": 713.27,
+              "width": 1000,
+              "height": 426,
+              "sizeInBytes": 713270
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_Screenshot_2025_03_24_190536_10d8fb5978.png",
+              "hash": "small_Screenshot_2025_03_24_190536_10d8fb5978",
+              "mime": "image/png",
+              "name": "small_Screenshot 2025-03-24 190536.png",
+              "path": null,
+              "size": 204.06,
+              "width": 500,
+              "height": 213,
+              "sizeInBytes": 204058
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_Screenshot_2025_03_24_190536_10d8fb5978.png",
+              "hash": "medium_Screenshot_2025_03_24_190536_10d8fb5978",
+              "mime": "image/png",
+              "name": "medium_Screenshot 2025-03-24 190536.png",
+              "path": null,
+              "size": 425.05,
+              "width": 750,
+              "height": 320,
+              "sizeInBytes": 425046
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_Screenshot_2025_03_24_190536_10d8fb5978.png",
+              "hash": "thumbnail_Screenshot_2025_03_24_190536_10d8fb5978",
+              "mime": "image/png",
+              "name": "thumbnail_Screenshot 2025-03-24 190536.png",
+              "path": null,
+              "size": 55.51,
+              "width": 245,
+              "height": 104,
+              "sizeInBytes": 55509
+            }
+          },
+          "hash": "Screenshot_2025_03_24_190536_10d8fb5978",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 1933.38,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Screenshot_2025_03_24_190536_10d8fb5978.png",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T08:06:23.229Z",
+          "updatedAt": "2025-03-24T08:06:23.229Z",
+          "publishedAt": "2025-03-24T08:06:23.229Z"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "documentId": "h2xwcpx1x8jy2ssxr9ejca33",
+      "Name": "Movie Review Website🎬",
+      "tags": [
+        "Figma",
+        "Tailwind",
+        "Nextjs",
+        "Express.js",
+        "MongoDB",
+        "AWS"
+      ],
+      "Description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Developed a full-stack MERN application (MongoDB, Express.js, React, Node.js), independently managing front-end, back-end, and database layers.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Designed an intuitive user interface using Adobe Photoshop and Figma, focusing on clean, user-friendly layouts and enhancing the overall user experience (UI/UX).",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Optimized back-end performance by mastering Express.js for efficient database operations and RESTful API integrations, improving communication between front-end and back-end components.",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "url": "https://movielistapp.hongyu-zhu.com/",
+      "icon": null,
+      "createdAt": "2025-03-24T08:27:22.604Z",
+      "updatedAt": "2025-03-24T08:27:22.604Z",
+      "publishedAt": "2025-03-24T08:27:22.637Z",
+      "showcase": [
+        {
+          "id": 22,
+          "documentId": "s3c1bvbspo2rw9m8s12pji60",
+          "name": "Screenshot 2025-03-24 192648.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 3644,
+          "height": 1516,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_Screenshot_2025_03_24_192648_fcc600263f.png",
+              "hash": "large_Screenshot_2025_03_24_192648_fcc600263f",
+              "mime": "image/png",
+              "name": "large_Screenshot 2025-03-24 192648.png",
+              "path": null,
+              "size": 381.7,
+              "width": 1000,
+              "height": 416,
+              "sizeInBytes": 381698
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_Screenshot_2025_03_24_192648_fcc600263f.png",
+              "hash": "small_Screenshot_2025_03_24_192648_fcc600263f",
+              "mime": "image/png",
+              "name": "small_Screenshot 2025-03-24 192648.png",
+              "path": null,
+              "size": 106.34,
+              "width": 500,
+              "height": 208,
+              "sizeInBytes": 106342
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_Screenshot_2025_03_24_192648_fcc600263f.png",
+              "hash": "medium_Screenshot_2025_03_24_192648_fcc600263f",
+              "mime": "image/png",
+              "name": "medium_Screenshot 2025-03-24 192648.png",
+              "path": null,
+              "size": 224.56,
+              "width": 750,
+              "height": 312,
+              "sizeInBytes": 224559
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_Screenshot_2025_03_24_192648_fcc600263f.png",
+              "hash": "thumbnail_Screenshot_2025_03_24_192648_fcc600263f",
+              "mime": "image/png",
+              "name": "thumbnail_Screenshot 2025-03-24 192648.png",
+              "path": null,
+              "size": 28.67,
+              "width": 245,
+              "height": 102,
+              "sizeInBytes": 28674
+            }
+          },
+          "hash": "Screenshot_2025_03_24_192648_fcc600263f",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 766,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Screenshot_2025_03_24_192648_fcc600263f.png",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T08:27:12.785Z",
+          "updatedAt": "2025-03-24T08:27:12.785Z",
+          "publishedAt": "2025-03-24T08:27:12.786Z"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "documentId": "ovhpxzcd0fqcmf445ifx7kb6",
+      "Name": "Expense Tracker Mobile App💸",
+      "tags": [
+        "react native",
+        "SQLite",
+        "CSS"
+      ],
+      "Description": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Developed a cross-platform mobile app using React Native and Node.js to track and categorize daily expenses, with secure data storage handled through SQLite.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Implemented an expense overview feature, displaying weekly expenses with real-time editing functionality for each entry.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "text": "• Designed a user-friendly interface",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "url": "https://github.com/HongyuZhuz/native-expo-practice",
+      "icon": null,
+      "createdAt": "2025-03-24T08:41:18.632Z",
+      "updatedAt": "2025-03-24T08:41:18.632Z",
+      "publishedAt": "2025-03-24T08:41:18.662Z",
+      "showcase": [
+        {
+          "id": 23,
+          "documentId": "yhbklhlcxqkpsnmb4o1k8iuk",
+          "name": "Screenshot 2025-03-24 193856.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 2004,
+          "height": 1198,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/large_Screenshot_2025_03_24_193856_351c80ab63.png",
+              "hash": "large_Screenshot_2025_03_24_193856_351c80ab63",
+              "mime": "image/png",
+              "name": "large_Screenshot 2025-03-24 193856.png",
+              "path": null,
+              "size": 166.2,
+              "width": 1000,
+              "height": 598,
+              "sizeInBytes": 166198
+            },
+            "small": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/small_Screenshot_2025_03_24_193856_351c80ab63.png",
+              "hash": "small_Screenshot_2025_03_24_193856_351c80ab63",
+              "mime": "image/png",
+              "name": "small_Screenshot 2025-03-24 193856.png",
+              "path": null,
+              "size": 59.12,
+              "width": 500,
+              "height": 299,
+              "sizeInBytes": 59121
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/medium_Screenshot_2025_03_24_193856_351c80ab63.png",
+              "hash": "medium_Screenshot_2025_03_24_193856_351c80ab63",
+              "mime": "image/png",
+              "name": "medium_Screenshot 2025-03-24 193856.png",
+              "path": null,
+              "size": 107.2,
+              "width": 750,
+              "height": 448,
+              "sizeInBytes": 107195
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/thumbnail_Screenshot_2025_03_24_193856_351c80ab63.png",
+              "hash": "thumbnail_Screenshot_2025_03_24_193856_351c80ab63",
+              "mime": "image/png",
+              "name": "thumbnail_Screenshot 2025-03-24 193856.png",
+              "path": null,
+              "size": 20.9,
+              "width": 245,
+              "height": 146,
+              "sizeInBytes": 20896
+            }
+          },
+          "hash": "Screenshot_2025_03_24_193856_351c80ab63",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 107.65,
+          "url": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Screenshot_2025_03_24_193856_351c80ab63.png",
+          "previewUrl": null,
+          "provider": "@strapi/provider-upload-aws-s3",
+          "provider_metadata": null,
+          "createdAt": "2025-03-24T08:41:11.304Z",
+          "updatedAt": "2025-03-24T08:41:11.304Z",
+          "publishedAt": "2025-03-24T08:41:11.306Z"
+        }
+      ]
     }
   ],
   "topEditPhotos": [

@@ -58,10 +58,8 @@ export async function fetchITProjectData() {
         Authorization: `Bearer ${token}`,
       },}
     );
-    console.log("???")
-    console.log(response.data.data)
     const data = response.data.data;
-    // await writeDataToFile(data, 'itProjectData');
+     await writeDataToFile(data, 'itProjectData');
     return (data)
 
   } catch(error) {
