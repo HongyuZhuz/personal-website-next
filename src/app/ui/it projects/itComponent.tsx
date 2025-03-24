@@ -17,11 +17,13 @@ export async function ItProjects () {
         <div className="bg-black flex  flex-col justify-center  ">
           {data.map((project:Project)=>{
 
-            const p = project.attributes
-            const img =p.showcase.data[0].attributes.url
+            const p = project
+            console.log("????")
+            console.log(p.showcase)
+            const img =p.showcase[0].url
             const description: BlocksContent = p.Description;
             return (
-              <ImageComponent key={project.id} title={p.Name} imageSrc={img} tags = {p.tags} url={p.URL} description={description}/>
+              <ImageComponent key={project.id} title={p.Name} imageSrc={img} tags = {p.tags} url={p.url} description={description}/>
             )
           })}
         </div>
@@ -89,25 +91,24 @@ const ImageComponent = ({ title, imageSrc, tags,url, description }:{title:string
 
 
   // 定义 Showcase 类型
-type Showcase = {
-  data: Array<{
-    attributes: {
-      url: string;
-    };
-  }>;
-};
+type Showcase = ShowcaseItem[]
+type ShowcaseItem = {
+  url:string;
+}
 
 
 type Description = BlocksContent;
 
-// 定义 ProjectAttributes 类型
-type ProjectAttributes = {
+
+// 定义 Project 类型
+type Project = {
+  id: number;
   Name: string;
   createdAt: string;
   updatedAt: string;
   publishedAt: string;
   tags: string[];
-  URL: string;
+  url: string;
   Description: Description; // Description 是对象数组
   showcase: Showcase; // showcase 包含图片数据
   icon: {
@@ -117,10 +118,4 @@ type ProjectAttributes = {
       };
     };
   };
-};
-
-// 定义 Project 类型
-type Project = {
-  id: number;
-  attributes: ProjectAttributes;
 };

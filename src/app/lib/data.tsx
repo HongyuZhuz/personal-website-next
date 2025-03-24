@@ -58,24 +58,25 @@ export async function fetchITProjectData() {
         Authorization: `Bearer ${token}`,
       },}
     );
+    console.log("???")
+    console.log(response.data.data)
     const data = response.data.data;
-    await writeDataToFile(data, 'itProjectData');
+    // await writeDataToFile(data, 'itProjectData');
     return (data)
 
   } catch(error) {
     console.error ("Error fetching IT project data", error);
     return readDataFromFile('itProjectData');
-
   }
 }
 
 export async function fetchResume() {
   try{
-    const response = await axios.get(`${apiUrl}/api/upload/files/47`,{
+    const response = await axios.get(`${apiUrl}/api/resume`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },})
-      const url = response.data.url;
+      const url = response.data.data.resume_url;
       await writeDataToFile(url, 'resume');
       return (url)
   } catch(error){
@@ -86,14 +87,11 @@ export async function fetchResume() {
 
 export async function getTopEditPhotos() {
   try {
-    console.log("牛逼")
     const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
-    console.log("???")
-    console.log(response.data.data)
     const photos = response.data.data
     await writeDataToFile(photos, 'topEditPhotos');
     return photos;

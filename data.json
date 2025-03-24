@@ -14,7 +14,6 @@
     "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_12_82882f04e9.jpg",
     "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_13_a983e734c7.jpg"
   ],
-  "resume": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Hongyu_Zhu_resume_428383e427.pdf",
   "itProjectData": [
     {
       "id": 1,
@@ -1039,5 +1038,6 @@
       }
     },
     "meta": {}
-  }
+  },
+  "resume": "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Hongyu_Zhu_resume_428383e427_4fe470c310.pdf"
 }
