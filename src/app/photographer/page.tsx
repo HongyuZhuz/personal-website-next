@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 import { getTopEditPhotos } from '../lib/data';
-import { MyHobbyPage } from '../ui/hobbie';
+// import { MyHobbyPage } from '../ui/hobbie';
 
 const MasonryGallery = dynamic(() => import('./masonry'), { ssr: false });
 
