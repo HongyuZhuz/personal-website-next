@@ -28,7 +28,7 @@ export default async function Page() {
           <h1 className="text-4xl font-bold mb-6 mt-20 text-left border-l-4 border-red-500 pl-4 text-red-500">Photographic Explorations</h1>
           <MasonryGallery photos={photos} />
         </div>
-        <MyHobbyPage/>
+        {/*<MyHobbyPage/>*/}
       </div>
     );
   }
