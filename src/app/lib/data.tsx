@@ -9,9 +9,7 @@ const token = process.env.NEXT_PUBLIC_API_TOKEN as string;
 const dataFilePath = path.resolve(process.cwd(), 'data.json');
 
 type ImageType = {
-  attributes: {
-    url: string;
-  };
+  url:string
 };
 
 async function writeDataToFile(data:unknown, key: string) {
@@ -38,15 +36,13 @@ async function readDataFromFile(key: string) {
 
 export async function fetchPortfolioData() {
   try {
-    const response = await axios.get(`${apiUrl}/api/landscape-portfolio?populate=*`, {
+    const response = await axios.get(`${apiUrl}/api/landscape-porfolio?populate=*`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
-    const images:ImageType[] = response.data.data.attributes.images.data;
-    const imageUrls = images.map((image:ImageType) => image.attributes.url as string);
-
-
+    const images:ImageType[] = response.data.data.images;
+    const imageUrls = images.map((image:ImageType) => image.url as string);
     await writeDataToFile(imageUrls, 'portfolioData');
     return imageUrls; // 返回解析后的 JSON 数据
   } catch (error) {

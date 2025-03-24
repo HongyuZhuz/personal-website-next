@@ -1,18 +1,18 @@
 {
   "portfolioData": [
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_01_4ba136a7ce.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_02_9670dd9bc4.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_03_e180462812.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_04_b0641a06e8.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_05_bc20a95e5c.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_06_e5e9425611.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_07_7ccbff8579.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_08_57d95be1cb.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_09_3189e806ab.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_10_131e69bda0.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_11_28170f9168.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_12_51aded8b8e.jpg",
-    "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Portfolio_Hongyu_Zhu_Page_13_b0e42e2359.jpg"
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_1_7319eec80c.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_2_d031b66a5d.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_3_6fea17dd3d.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_4_4459b97fc2.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_5_08a16b7754.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_6_e6a7cbb6e5.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_7_cd00bc82a9.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_8_131e6863a9.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_9_7aa71aec19.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_10_e7096c5829.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_11_bc58882741.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_12_82882f04e9.jpg",
+    "https://s3.ap-southeast-2.amazonaws.com/mynasstrapi/Portfolio_13_a983e734c7.jpg"
   ],
   "resume": "https://strapi-images-folder.s3.ap-southeast-2.amazonaws.com/Hongyu_Zhu_resume_428383e427.pdf",
   "itProjectData": [
