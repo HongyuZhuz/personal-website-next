@@ -1,6 +1,6 @@
 import { getTopEditPhotos } from '../lib/data';
 import CoverPhoto from './coverPhoto';
-
+export const revalidate = 10;
 
 
 export default async function Page() {

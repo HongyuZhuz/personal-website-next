@@ -86,7 +86,7 @@ export async function fetchResume() {
 
 export async function getTopEditPhotos(){
   try {
-    const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*`,{
+    const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*&sort[0]=createdAt:desc`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },
