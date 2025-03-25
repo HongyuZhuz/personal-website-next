@@ -141,7 +141,7 @@ export async function getTopEditPhotoById(id: string | number) {
     if (photos && Array.isArray(photos)) {
       // 根据 id 查找对应的照片（注意 id 类型可能为字符串或数字）
       const foundPhoto = photos.find(
-        (photo: any) => photo.documentId === id || photo.documentId === String(id)
+        (photo) => photo.documentId === id || photo.documentId === String(id)
       );
       return foundPhoto || null;
     }
