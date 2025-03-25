@@ -1,7 +1,6 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
-import { TopEditPhotos } from '../ui/type';
 
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
