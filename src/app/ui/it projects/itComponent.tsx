@@ -18,8 +18,6 @@ export async function ItProjects () {
           {data.map((project:Project)=>{
 
             const p = project
-            console.log("????")
-            console.log(p.showcase)
             const img =p.showcase[0].url
             const description: BlocksContent = p.Description;
             return (
