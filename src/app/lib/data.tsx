@@ -1,6 +1,7 @@
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
+import { TopEditPhotos } from '../ui/type';
 
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
@@ -68,6 +69,7 @@ export async function fetchITProjectData() {
   }
 }
 
+
 export async function fetchResume() {
   try{
     const response = await axios.get(`${apiUrl}/api/resume`,{
@@ -83,7 +85,7 @@ export async function fetchResume() {
   }
 }
 
-export async function getTopEditPhotos() {
+export async function getTopEditPhotos(){
   try {
     const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*`,{
       headers: {
@@ -112,6 +114,39 @@ export async function getGraphicDesignPortfolio() {
   } catch (error) {
     console.error('获取平面设计作品集时出错:', error);
     return readDataFromFile('graphicDesignPortfolio');
+  }
+}
+
+
+export async function getTopEditPhotoById(id: string | number) {
+  try {
+    
+    // 尝试通过 axios 请求 API 获取指定 id 的数据
+    const response = await axios.get(
+      `${apiUrl}/api/top-edit-photos/${id}?populate=*`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
+  
+    const photo = response.data.data;
+    
+    // 如果需要，也可以在这里更新缓存文件，不过这里直接返回获取到的数据
+    return photo;
+  } catch (error) {
+    console.error(`获取 id 为 ${id} 的顶级编辑照片时出错:`, error);
+    // 请求失败时，从文件中读取 topEditPhotos 数组
+    const photos = await readDataFromFile('topEditPhotos');
+    if (photos && Array.isArray(photos)) {
+      // 根据 id 查找对应的照片（注意 id 类型可能为字符串或数字）
+      const foundPhoto = photos.find(
+        (photo: any) => photo.documentId === id || photo.documentId === String(id)
+      );
+      return foundPhoto || null;
+    }
+    return null;
   }
 }
 
