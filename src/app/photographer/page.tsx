@@ -2,7 +2,6 @@ import { getTopEditPhotos } from '../lib/data';
 import CoverPhoto from './coverPhoto';
 
 
-export const dynamic = 'force-dynamic'; // 或者 export const revalidate = 0;
 
 export default async function Page() {
     const topEditPhotosData = await getTopEditPhotos();
