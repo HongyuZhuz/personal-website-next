@@ -19,10 +19,10 @@ export default async function Page() {
   }
 
 
-  function CoverPhoto ({topEditPhotos}:any) {
+  function CoverPhoto ({topEditPhotos}:CoverPhotoProps) {
       return(
         <div>
-          {topEditPhotos.map((photo:any)=>(
+          {topEditPhotos.map((photo:Photo)=>(
             <Link key={photo.id} href={`/photographer/${photo.documentId}`}>
             <div  className='relative aspect-[2500/900] my-3 w-full group'>
               <Image src={photo.cover.url} alt='no image' fill className='object-cover'/> 
@@ -36,4 +36,17 @@ export default async function Page() {
           )}
         </div>
       )
+  }
+
+  interface Photo {
+    id: number | string;
+    documentId: string;
+    topic: string;
+    cover: {
+      url: string;
+    };
+  }
+  
+  interface CoverPhotoProps {
+    topEditPhotos: Photo[];
   }
