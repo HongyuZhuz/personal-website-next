@@ -22,7 +22,7 @@ const myCareer:Array<CareerItemProps> = [
 },
 {
     role:"Digitization assistant",
-    dateRange:"08.2023 - Now",
+    dateRange:"08.2023 - 11.2024",
     company:"TIMG Pty Ltd.",
     description:
     <ul>
@@ -33,7 +33,7 @@ const myCareer:Array<CareerItemProps> = [
 },
 {
     role:"Graphic Designer & Photographer",
-    dateRange:"01.2021 - Now",
+    dateRange:"01.2021 - 08.2023",
     company:"MAXWELL",
     description:
     <ul>
