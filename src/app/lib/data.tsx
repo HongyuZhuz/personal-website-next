@@ -139,11 +139,12 @@ export async function getTopEditPhotoById(id: string | number) {
     // 请求失败时，从文件中读取 topEditPhotos 数组
     const photos = await readDataFromFile('topEditPhotos');
     if (photos && Array.isArray(photos)) {
-      // 根据 id 查找对应的照片（注意 id 类型可能为字符串或数字）
-      const foundPhoto = photos.find(
-        (photo) => photo.documentId === id || photo.documentId === String(id)
-      );
-      return foundPhoto || null;
+      // 构建 documentId 到照片对象的映射表（使用字符串作为 key）
+      const photoMap = photos.reduce((map, photo) => {
+        map[String(photo.documentId)] = photo;
+        return map;
+      }, {});
+      return photoMap[String(id)] || null;
     }
     return null;
   }
