@@ -5,7 +5,6 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import 'yet-another-react-lightbox/styles.css';
 import dynamic from 'next/dynamic';
 
-// ... 其他导入 ...
 
 const Lightbox = dynamic(() => import('yet-another-react-lightbox'), {
   ssr: false,
@@ -13,7 +12,7 @@ const Lightbox = dynamic(() => import('yet-another-react-lightbox'), {
 
 interface Photo {
   src: string;
-  key: number;
+  key: number |string;
   width: number;
   height: number;
 }
