@@ -71,7 +71,7 @@ export async function fetchITProjectData() {
 
 export async function fetchResume() {
   try{
-    const response = await axios.get(`${apiUrl}/api/resume`,{
+    const response = await axios.get(`${apiUrl}/api/resume?ts=${Date.now()}`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },})
