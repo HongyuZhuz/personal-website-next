@@ -15,14 +15,11 @@ interface CareerItemProps {
 }
 
 const CareerItem: React.FC<CareerItemProps> = ({ role, dateRange, company, description }) => (
-  <div className="mb-8">
-    <h3 className="text-xl font-bold mb-2">{role}</h3>
-    <p className="text-gray-200 mb-2">{dateRange}</p>
-    <p className="text-gray-200 mb-2">{company}</p>
-    <div 
-      className="text-gray-200 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mb-1"
-      dangerouslySetInnerHTML={{ __html: description }} 
-    />
+  <div className="border-l-4 border-red-500 pl-4 mb-6">
+    <h3 className="text-xl text-red-500 font-bold mt-2">{role}</h3>
+    <p className="text-gray-500">{dateRange}</p>
+    <p className="font-bold">{company}</p>
+    <div className="text-gray-300 [&_ul]:list-disc [&_ul]:pl-5 [&_li]:mb-1" dangerouslySetInnerHTML={{ __html: description }} />
   </div>
 );
 
