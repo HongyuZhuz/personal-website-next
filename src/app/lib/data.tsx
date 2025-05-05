@@ -2,7 +2,6 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 
-
 const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
 const token = process.env.NEXT_PUBLIC_API_TOKEN as string;
 
@@ -56,46 +55,64 @@ export async function fetchITProjectData() {
     const response = await axios.get(`${apiUrl}/api/it-projects?populate=*&sort=createdAt:asc`, {
       headers: {
         Authorization: `Bearer ${token}`,
-      },}
-    );
+      },
+    });
     const data = response.data.data;
      await writeDataToFile(data, 'itProjectData');
-    return (data)
 
-  } catch(error) {
-    console.error ("Error fetching IT project data", error);
+    return data;
+  } catch (error) {
+    console.error("Error fetching IT project data:", error);
     return readDataFromFile('itProjectData');
   }
 }
 
 
-export async function fetchResume() {
-  try{
-    const response = await axios.get(`${apiUrl}/api/resume?ts=${Date.now()}`,{
+export async function fetchCareerData() {
+  try {
+    const response = await axios.get(`${apiUrl}/api/my-career?populate=*`, {
       headers: {
         Authorization: `Bearer ${token}`,
-      },})
-      const url = response.data.data.resume_url;
-      await writeDataToFile(url, 'resume');
-      return (url)
-  } catch(error){
-    console.error("can't get resume"+ error)
+      },
+    });
+    
+    const data = response.data.data.careerInfo;
+    await writeDataToFile(data, 'careerData');
+    return data;
+  } catch (error) {
+    console.error("Error fetching career data:", error);
+    return readDataFromFile('careerData');
+  }
+}
+
+export async function fetchResume() {
+  try {
+    const response = await axios.get(`${apiUrl}/api/resume?ts=${Date.now()}`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    const url = response.data.data.resume_url;
+    await writeDataToFile(url, 'resume');
+    return url;
+  } catch (error) {
+    console.error("Error fetching resume:", error);
     return readDataFromFile('resume');
   }
 }
 
-export async function getTopEditPhotos(){
+export async function getTopEditPhotos() {
   try {
     const response = await axios.get(`${apiUrl}/api/top-edit-photos?populate=*&sort[0]=createdAt:desc`,{
       headers: {
         Authorization: `Bearer ${token}`,
       },
     });
-    const photos = response.data.data
-    await writeDataToFile(photos, 'topEditPhotos');
-    return photos;
+    const data = response.data.data;
+    await writeDataToFile(data, 'topEditPhotos');
+    return data;
   } catch (error) {
-    console.error('获取顶级编辑照片时出错:', error);
+    console.error("Error fetching top edit photos:", error);
     return readDataFromFile('topEditPhotos');
   }
 }
@@ -111,35 +128,24 @@ export async function getGraphicDesignPortfolio() {
     await writeDataToFile(data, 'graphicDesignPortfolio');
     return data;
   } catch (error) {
-    console.error('获取平面设计作品集时出错:', error);
+    console.error("Error fetching graphic design portfolio:", error);
     return readDataFromFile('graphicDesignPortfolio');
   }
 }
 
-
 export async function getTopEditPhotoById(id: string | number) {
   try {
-    
-    // 尝试通过 axios 请求 API 获取指定 id 的数据
-    const response = await axios.get(
-      `${apiUrl}/api/top-edit-photos/${id}?populate=*`,
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      }
-    );
-  
-    const photo = response.data.data;
-    
-    // 如果需要，也可以在这里更新缓存文件，不过这里直接返回获取到的数据
-    return photo;
+    const response = await axios.get(`${apiUrl}/api/top-edit-photos/${id}?populate=*`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+    const data = response.data.data;
+    return data;
   } catch (error) {
-    console.error(`获取 id 为 ${id} 的顶级编辑照片时出错:`, error);
-    // 请求失败时，从文件中读取 topEditPhotos 数组
+    console.error("Error fetching top edit photo by id:", error);
     const photos = await readDataFromFile('topEditPhotos');
     if (photos && Array.isArray(photos)) {
-      // 构建 documentId 到照片对象的映射表（使用字符串作为 key）
       const photoMap = photos.reduce((map, photo) => {
         map[String(photo.documentId)] = photo;
         return map;
@@ -149,5 +155,3 @@ export async function getTopEditPhotoById(id: string | number) {
     return null;
   }
 }
-
-
