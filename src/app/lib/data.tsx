@@ -29,31 +29,37 @@ function readAllData(): GeneratedData {
   }
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function fetchPortfolioData():Promise<any> {
   const data = readAllData();
   return data.portfolioData ?? [];
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function fetchITProjectData():Promise<any> {
   const data = readAllData();
   return data.itProjectData ?? [];
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function fetchCareerData():Promise<any> {
   const data = readAllData();
   return data.careerData ?? null;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function fetchResume():Promise<any> {
   const data = readAllData();
   return data.resume ?? null;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function getTopEditPhotos():Promise<any> {
   const data = readAllData();
   return data.topEditPhotos ?? [];
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function getTopEditPhotoById(id: string | number):Promise<any> {
   const data = readAllData();
   const photos = data.topEditPhotos ?? [];
