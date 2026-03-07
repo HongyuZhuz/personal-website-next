@@ -2,8 +2,8 @@ import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL as string;
-const token = process.env.NEXT_PUBLIC_API_TOKEN as string;
+const apiUrl = process.env.STRAPI_API_URL as string;
+const token = process.env.STRAPI_API_TOKEN as string;
 
 const dataFilePath = path.resolve(process.cwd(), 'data.json');
 
