@@ -34,6 +34,7 @@ async function readDataFromFile(key: string) {
 }
 
 export async function fetchPortfolioData() {
+
   try {
     const response = await axios.get(`${apiUrl}/api/landscape-porfolio?populate=*`, {
       headers: {
@@ -117,21 +118,6 @@ export async function getTopEditPhotos() {
   }
 }
 
-export async function getGraphicDesignPortfolio() {
-  try {
-    const response = await axios.get(`${apiUrl}/api/graphic-design-portfolio?populate=*`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    });
-    const data = response.data;
-    await writeDataToFile(data, 'graphicDesignPortfolio');
-    return data;
-  } catch (error) {
-    console.error("Error fetching graphic design portfolio:", error);
-    return readDataFromFile('graphicDesignPortfolio');
-  }
-}
 
 export async function getTopEditPhotoById(id: string | number) {
   try {
